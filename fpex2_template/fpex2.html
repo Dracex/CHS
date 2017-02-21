@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <title>JSON example DWI DAW 2017</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Mike Garcia" />
+  <meta name="description" content="JSON example DWI DAW 2017" />
+  <meta name="keywords" content="HTML5, CSS3, JS, JSON, Bootstrap, DWI, DAW, FBMOLL" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="1031371979335-5mreim5pibibm906tndoc9or6mv0qsd9.apps.googleusercontent.com">
+
+  <link rel="stylesheet" href="fpex2.css" />
+  <script src="fpex2.js"></script>
+</head>
+<body>
+  <div id="container">
+	<header>
+	    <h1>JSON & Bootstrap exercise DWI DAW 2017:<br /> OFERTA FORMATIVA FP</h1>
+		<div class="g-signin2" data-onsuccess="onSignIn"></div>
+		<a id="logout" href="javascript:void(0)"><img src="img/logout.png" style="width:auto;height:36px;"/></a>
+	</header>
+	<nav>
+		<ul>
+		  <li class="active"><a data-toggle="tab" href="#verFamilias"><span>Familias</span></a></li>
+		  <li><a data-toggle="tab" href="#add">Añadir</a></li>
+		  <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+		</ul>
+	</nav>
+	<div class="tab-content">
+	  <div id="verFamilias" class="tab-pane fade in active">
+		<section id="familias"></section>
+		<section id="ofertaFamilia"></section>
+	  </div>
+	  <div id="add" class="tab-pane fade">
+	    <p>You need to log in to add new content</p>
+		<form id="addOffer" action="add.php" method="POST" autocomplete="on" disabled>
+			<label for="fIdCentre">ID centre:</label>
+			<input type="text" name="fIdCentre" value="07006238" pattern="[0-9]{8}" placeholder="07006238" required autofocus />
+			<label for="illa">Illa centre:</label> 
+			<select name="illa">
+			  <option value="Mallorca">Mallorca</option>
+			  <option value="Menorca">Menorca</option>
+			  <option value="Eivissa">Eivissa</option>
+			  <option value="Formentera">Formentera</option>
+			</select>
+			<label for="localitat">Localitat:</label>
+			<input list="localitat" placeholder="Palma" value="Palma">
+				<datalist id="localitat">
+				  <option value="Palma">
+				  <option value="Inca">
+				  <option value="Manacor">
+				  <option value="Marratxi">
+				  <option value="Pollença">
+				</datalist>
+			<label for="tipusCentre">Tipus centre:</label>
+			<select name="tipusCentre">
+			  <option value="IES">IES</option>
+			  <option value="CC">CC</option>
+			  <option value="CP">CP</option>
+			</select>
+			<label for="nomCentre">Nom centre:</label>
+			<input type="text" name="nomCentre" placeholder="IES Francesc de Borja Moll" value="IES Francesc de Borja Moll" required />
+			<label for="codiFamilia">Codi Familia professional:</label>
+			<input type="text" name="codiFamilia" pattern="[A-Z]{3}" placeholder="SEX" value="SEX" required />
+			<label for="descFamilia">Descripció familia professional:</label>
+			<input type="text" name="descFamilia"  placeholder="Salut i extremitats" value="Salut i extremitats" required />
+			<label for="clauCicle">Clau cicle:</label>
+			<input type="text" name="clauCicle" pattern="[A-Z]{3}[0-9]{2}" placeholder="SEX31" value="SEX31" required />			
+			<label for="nivellCicle">Nivell cicle:</label>
+			<select name="nivellCicle">
+			  <option value="FPB">FPB</option>
+			  <option value="CFGM">CFGM</option>
+			  <option value="CFGS" selected="selected">CFGS</option>
+			</select>
+			<label for="descCicle">Descripció cicle:</label>
+			<input type="text" name="descCicle"  placeholder="Gestió d'indústries d'oci per adults" value="Gestió d'indústries d'oci per adults" required />
+			<input type="submit" value="Submit" />
+		</form>
+	  </div>
+	  <div id="menu2" class="tab-pane fade">
+		<h3>Menu 2</h3>
+		<p>Some content in menu 2.</p>
+	  </div>
+	</div>
+
+	<footer>
+	    <p>&copy; Mike Garcia 2017 mogarcia.fbm@gmail.com</p>
+	</footer>
+  </div>
+</body>
+</html>
