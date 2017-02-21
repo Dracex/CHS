@@ -1,0 +1,159 @@
+.mas {
+	font-style: italic;
+}
+
+.mas:hover {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.pestana, .pestanas {
+	display: none;
+}
+
+#contenido > div, #camino {
+	background-color: rgba(255,255,234,0.4);
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 1rem;
+	margin-top: 4rem;
+	padding: 1rem;
+}
+
+#contenido > div > a {
+	color: black;
+}
+
+footer {
+	background-image: url("../../sys-images/image.jpeg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	border-bottom: 0px;
+	border-radius: 3px 3px 0px 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+footer a {
+	color: black; 
+	font-family: menu;
+	margin: 3px;
+	text-align: center;
+	width: 100%;
+}
+
+.blanco {
+	align-items: center;
+	align-content: center;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(255,255,255,0.5);
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) and (min-height: 350px) {
+	main {
+		padding-top: 4.125rem;
+		padding-bottom: 1rem;
+		width: 80%;
+		margin: auto;
+		min-width: 768px;
+	}
+
+	.pestanas {
+		border: 0px;
+		display: flex;
+		height: 2rem;
+		width: 100%;
+	}
+
+	.pestana {
+		background-color: rgba(0, 0, 0, 0.24);
+		border: 1px solid black;
+		border-top: 0px;
+		border-right: 0px;
+		display: block;
+		flex-grow: 1;
+		height: 2rem;
+		line-height: 2rem;
+
+		text-align: center;
+		text-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
+	}
+
+	.pestana:nth-child(1) {
+		border-left: 0px;
+	}
+
+	.pestana:hover {
+		background-color: rgba(0,0,0,0.12);
+		cursor: pointer;
+		text-shadow: 0 1px 3px rgba(255, 255, 255, 0.12), 0 1px 2px rgba(255, 255, 255, 0.24);
+	}
+
+	.activo {
+		background-color: rgba(255,255,234,0);
+		border-bottom: 0px solid black;
+	}
+
+	.activo:hover {
+		background-color: rgba(255,255,234,0);
+		border-bottom: 0px solid black;
+	}
+
+	article {
+		background-color: rgba(255,255,234,0.4);
+		border: 2px solid black;
+		border-radius: 5px;
+		position: relative;
+		margin-bottom: 2rem;
+	}
+
+	article div{
+		display: none;
+	}
+
+	#contenido {
+		display: inline;
+	}
+
+	#contenido > div, #camino {
+		background-color: rgba(255,255,234,0.4);
+		border: 2px solid black;
+		border-radius: 5px;
+		margin: 0px;
+		padding: 1rem;
+	}
+
+	#contenido > div > p {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	#contenido > div {
+		background-color: rgba(0,0,0,0);
+		border: 0px;
+	}
+
+	article:last-child {
+		margin-bottom: 1rem;
+	}
+
+	footer {
+		bottom: 0px;
+		font-family: menu;
+		position: fixed;
+		width: 100%;
+	}
+
+	.blanco {
+		background-color: rgba(255,255,234,0.3);
+		width: 100%;
+
+		-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+		box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+	}
+}

@@ -1,0 +1,72 @@
+main {
+	align-items: center;
+	align-content: space-between	;	
+	background-color:rgba(192,192,192,0.5);	
+	border-radius: 5px;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	overflow: visible;
+	padding-top: 3.75rem;
+	padding-bottom: 2.5rem;
+	padding: 0px;
+	width: 90%;
+
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+}
+
+main > .imagen {
+	border-radius: 3px;
+	flex: 1 1 15.5rem;
+	margin: 20px;
+	height: auto;
+	width: auto;
+	/*max-width: 80%	;*/
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+
+	transition: all 0.3s ease 0s;
+}
+
+#modalImagen > #contenidoModalImagen > .close {
+	float: right;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+}
+
+#imagen {
+	/*height: 100vw;*/
+	max-height: 85vh;
+	/*width: auto;*/
+	max-width: 85vw;
+	/*border: 1px solid #999;*/
+}
+
+@media screen and (min-width: 768px) {
+	main > .imagen {
+		width: auto;
+		height: auto;
+		max-width: 25rem;
+		max-height: 25rem;	
+	}
+
+	main > img:hover {
+		transform: scale(1.2,1.2);
+	}
+}
+
+#importar {
+	background-color: #FFF; 
+	/*border: 1px solid red;*/
+	padding: 20px;
+	margin-top: 50px;
+	/*border-radius: 0px 0px 5px 5px;*/
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+	width: 100%;
+}
+
+

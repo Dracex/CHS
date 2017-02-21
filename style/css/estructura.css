@@ -1,0 +1,47 @@
+/*Básico*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+@font-face {
+    font-family: textcontent;
+    src: url(../fonts/Comfortaa/Comfortaa-Light.ttf);
+}
+
+body {
+    font-family: textcontent, sans-serif;
+    background-image: url("../../sys-images/image.jpeg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::-moz-selection/*, input::-moz-selection, a::-moz-selection, label::-moz-selection*/ {
+	background-color: #888;
+	color: white;
+}
+
+::selection {
+	background-color: #888;
+	color: white;
+}
+
+.activo {
+  display: inline;
+}
+
+.oculto {
+	display: none;
+}
