@@ -13,5 +13,5 @@ $(document).ready(function () {
 	console.log(ancho2);
 	$("#apellido1").width(ancho2);
 	$("#apellido2").width(ancho2);
-	$(".repetir").width(ancho);
+	$(".repetir").width(ancho+30);
 })
