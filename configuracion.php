@@ -16,7 +16,6 @@
 		<link rel="stylesheet" href="style/css/body.css">
 		<link rel="stylesheet" href="style/css/estructura.css">
 		<link rel="stylesheet" href="style/css/menu.css">
-		<link rel="stylesheet" href="style/css/modal.css">
 		<link rel="stylesheet" href="style/css/perfil.css">
 		<link rel="stylesheet" href="style/css/configuracion.css"/>
 		<script src="style/js/jQuery.js"></script>
