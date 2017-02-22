@@ -50,5 +50,6 @@ input[type="mail"] {
 
 input[type="submit"] {
 	margin: auto;
+	margin-top: 10px;
 	display: flex;
 }
