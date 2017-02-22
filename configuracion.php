@@ -105,19 +105,20 @@
 									<div class="ico user-form ico-ses"></div>
 									<input type="text" value="<?= $_SESSION['user']?>" placeholder="Nombre" id="name">
 								</div>
-								<div class="apellidos">
+								<div class="categoria">
 									<input type="text" name="apellido1" id="apellido1" placeholder="Primer apellido..." value="<?= $_SESSION['apellido1']?>">
 									<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)" value="<?php
 												 if (isset ($_SESSION['apellido2'])) {
 													 echo $_SESSION['apellido2'];
 												 }
 												 ?>">
-									<input type="submit" value="Guardar">
-									<?php
-								} else {
-									echo "<script>alert('Debes estar conectado con  tu cuenta para tener acceso a esta página.');window.location = 'http://caminahaciasantiago.esy.es/';</script>";
-								}
-							?>
+								</div>
+								<input type="submit" value="Guardar">
+								<?php
+							} else {
+								echo "<script>alert('Debes estar conectado con  tu cuenta para tener acceso a esta página.');window.location = 'http://caminahaciasantiago.esy.es/';</script>";
+							}
+						?>
 						</div>
 					</fieldset>
 				</form>
