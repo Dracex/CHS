@@ -14,11 +14,13 @@ $(document).ready(function () {
 	$("#entrar input").focusout(function () {
 		var flag = "false";
 		$("#entrar input[type='mail'], #entrar input[type='password']").each(function () {
-			var campo = $(this).val();
+			var campo = $.trim($(this).val());
+			$(this).val(campo);
 			if (campo.length < 1) {
 				flag = "true";
 			}
 		})
+		console.log(flag);
 		if (flag == "true") {
 			$(".error").fadeIn(500);
 		} else {
