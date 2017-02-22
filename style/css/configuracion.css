@@ -18,6 +18,10 @@ and open the template in the editor.
 	margin-top: 0px;
 }
 
+fieldset{
+	background-color: #FFF;
+}
+
 #apellido1 {
 	margin-left: 30px
 }
