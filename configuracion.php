@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="style/css/menu.css">
 		<link rel="stylesheet" href="style/css/modal.css">
 		<link rel="stylesheet" href="style/css/perfil.css">
+		<link rel="stylesheet" href="style/css/configuracion.css"/>
 		<script src="style/js/jQuery.js"></script>
 		<script src="style/js/jQueryGeneral.js"></script>
 		<script src="style/js/comprobar.js"></script>
@@ -93,69 +94,6 @@
 						</ul>
 					</nav>
 				</div>
-				<div id="myModal" class="modal">
-					<div class="modal-content">
-						<span class="close">&times;</span>
-						<div id="entrar">
-							<form action="sistema/conectar.php" method="POST">
-								<!--<form id="entrar" method="POST">-->
-								<h2>Login</h2>
-								<fieldset>
-									<p class="error">No puede haber campos vacíos</p>
-	<!--									<p class="error userlog">No puedes dejar campos en blanco</p>
-										<p class="error passlog">No puedes dejar campos en blanco</p>-->
-									<div>
-										<div class="ico user-form ico-ses"></div><input type="mail" name="maillog" id="userlog" placeholder="Correo electrónico...">
-									</div>
-									<div>
-										<div class="ico pass-form ico-ses"></div><input type="password" name="passlog" id="passlog" placeholder="Contraseña... ">
-									</div>
-									<div class="check">
-										<p class="texto1"><input type="checkbox" name="save" id="save">Mantener la sesión iniciada</p>
-									</div>
-									<input id="butEntrar" type="submit" value="Conectar">
-									<p class="texto cambio">¿No tienes cuenta? Registrate aqui</p>
-								</fieldset>
-							</form>
-						</div>
-						<div id="registro" class="oculto">
-							<!--<form action="sistema/registro.php" method="POST">-->
-							<form action="" method="POST">
-								<h2>Registro</h2>
-								<fieldset>
-									<div class="categoria">
-										<div class="ico user-form ico-ses"></div><input type="text" id="userreg" name="userreg" placeholder="Nombre...">
-									</div>
-									<div class="apellidos">
-										<input type="text" name="apellido1" class="apellido1" placeholder="Primer apellido...">
-										<input type="text" name="apellido2" class="apellido2" placeholder="Segundo apellido... (Opcional)">
-									</div>
-									<div class="categoria">
-										<div class="ico ico-ses" id="telefono"></div><input type="text" name="telefono" id="telefono" placeholder="Teléfono de contacto... ">
-									</div>
-									<div class="categoria">
-										<div class="ico ico-ses correo"></div><input type="mail" name="mailreg" id="mailreg" placeholder="Correo electrónico... ">
-									</div>
-									<div>
-										<input type="mail" class="repetir" name="mailreg2" id="mailreg2" placeholder="Repetir correo electrónico... ">
-									</div>
-									<div class="categoria">
-										<div class="ico pass-form ico-ses"></div><input type="password" name="passreg" id="passreg" placeholder="Contraseña... ">
-									</div>
-									<div>
-										<input type="password" class="repetir" name="pass2reg" id="pass2reg" placeholder="Repetir contraseña... ">
-									</div>
-									<div class="check">
-										<p class="texto1"><input type="checkbox" name="terms" id="terms">He leido y acepto los términos y condiciones</p>
-									</div>
-									<input type="hidden" name="activo" value="1">
-									<input id="butRegistro" type="submit" value="Registrarse">
-									<p class="texto cambio">¿Ya tienes cuenta? Inicia sesión aquí</p>
-								</fieldset>
-							</form>
-						</div>
-					</div>
-				</div>
 			</header>
 			<main>
 				<?php if ($logged) {?>
@@ -164,8 +102,8 @@
 							<fieldset>
 								<input type="text" value="<?= $_SESSION['user']?>" placeholder="Nombre" id="name">
 								<div class="apellidos">
-									<input type="text" name="apellido1" class="apellido1" placeholder="Primer apellido..." value="<?= $_SESSION['apellido1']?>">
-									<input type="text" name="apellido2" class="apellido2" placeholder="Segundo apellido... (Opcional)" value="<?php
+									<input type="text" name="apellido1" id="apellido1" placeholder="Primer apellido..." value="<?= $_SESSION['apellido1']?>">
+									<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)" value="<?php
 												 if (isset ($_SESSION['apellido2'])) {
 													 echo $_SESSION['apellido2'];
 												 }
