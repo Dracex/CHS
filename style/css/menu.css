@@ -229,7 +229,7 @@ fieldset p, #lab-save, #lab-terms, #save, #terms {
 	position: absolute;
 }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 800px) {
 	header {
 		height: 3.125rem;
 		padding: 0px;
