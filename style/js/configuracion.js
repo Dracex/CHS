@@ -7,7 +7,7 @@
 
 $(document).ready(function () {
 	console.log("hola");
-	var ancho = $("input #name").width();
+	var ancho = $("#name").width();
 	console.log(ancho);
 	ancho2 = ancho / 2;
 	console.log(ancho2);
