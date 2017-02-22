@@ -98,7 +98,6 @@
 			</header>
 			<main>
 				<?php if ($logged) {?>
-						<h1>Perfil:</h1>
 						<form action="#" method="POST" id="modificarPerfil">
 							<fieldset>
 								<div class="categoria">

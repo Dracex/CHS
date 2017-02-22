@@ -23,6 +23,8 @@ form {
 }
 
 fieldset{
+	border: none;
+	border-radius: 5px;
 	padding: 5px;
 	background-color: #FFF;
 }
@@ -47,4 +49,9 @@ input[type="mail"] {
 	width: 100%;
 	padding-left: 0.3125rem;
 	height: 1.875rem;
+}
+
+input[type="submit"] {
+	margin: auto;
+	margin-top: 10px;
 }
