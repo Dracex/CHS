@@ -48,6 +48,7 @@ main > .imagen {
 
 @media screen and (min-width: 800px) {
 	main > .imagen {
+		display: block;
 		width: auto;
 		height: auto;
 		max-width: 25rem;
