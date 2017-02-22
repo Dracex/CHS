@@ -49,4 +49,5 @@ input[type="mail"] {
 }
 
 input[type="submit"] {
+	display: flex;
 }
