@@ -21,7 +21,7 @@ main {
 
 main > .imagen {
 	border-radius: 3px;
-	flex: 1 1 27%;
+	flex: 1 1 100%;
 	margin: 20px;
 	height: auto;
 	width: auto;
@@ -48,10 +48,10 @@ main > .imagen {
 
 @media screen and (min-width: 800px) {
 	main > .imagen {
-		flex: 1 1 100%;
+		flex: 1 1 27%;
 		width: auto;
 		height: auto;
-		max-width: 100%;
+		/*max-width: 100%;*/
 	}
 
 	main > img:hover {
