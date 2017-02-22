@@ -12,11 +12,17 @@ $(document).ready(function () {
 	})
 
 	$("#entrar input").focusout(function () {
-		var campo = $.trim($(this).val());
-		$(this).val(campo);
-//		alert("campo");
-		if (campo == "") {
+		var flag = "false";
+		$("#entrar input[type='mail'], #entrar input[type='password']").each(function () {
+			var campo = $(this).val();
+			if (campo.length < 1) {
+				flag = "true";
+			}
+		})
+		if (flag == "true") {
 			$(".error").fadeIn(500);
+		} else {
+			$(".error").fadeOut(500);
 		}
 
 	});
