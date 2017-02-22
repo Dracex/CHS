@@ -28,12 +28,10 @@ form {
 
 #apellido1 {
 	margin-left: 30px;
-	width: 100%;
 }
 
 #apellido2 {
 	margin-left: 15px;
-	width: 100%;
 }
 
 input[type="text"], input[type="password"],
