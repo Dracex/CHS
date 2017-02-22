@@ -81,10 +81,17 @@ $(document).ready(function () {
 
 // Write the onsingin event handler to hide the signin google button and show the logout button when we successfully log in to google.
 // Also enable all addOffer form elements
-	$(".abcRioButtonContentWrapper").click(function () {
-		alert("Conectado");
-		$(this).hide();
-		$("#logout").show();
+	$(".abcRioButton").click(function () {
+//		alert("Conectado");
+		if ($(".connectedojqsthckymu2").text() == "Signed in") {
+			console.log("conectado");
+			$(".g-signin2").css("display", "none");
+			$("#logout").css("display", "block");
+		} else {
+			console.log("no conectado");
+			$(".g-signin2").css("display", "block");
+			$("#logout").css("display", "none");
+		}
 	})
 
 // When logout button is clicked, logout from google and then hide logout button, show signin button and disable form elements.
