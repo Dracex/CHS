@@ -101,7 +101,10 @@
 						<h1>Perfil:</h1>
 						<form action="#" method="POST" id="modificarPerfil">
 							<fieldset>
-								<input type="text" value="<?= $_SESSION['user']?>" placeholder="Nombre" id="name">
+								<div id="nombreConfig">
+									<div class="ico user-form ico-ses"></div>
+									<input type="text" value="<?= $_SESSION['user']?>" placeholder="Nombre" id="name">
+								</div>
 								<div class="apellidos">
 									<input type="text" name="apellido1" id="apellido1" placeholder="Primer apellido..." value="<?= $_SESSION['apellido1']?>">
 									<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)" value="<?php
