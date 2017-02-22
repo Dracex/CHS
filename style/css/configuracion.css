@@ -21,3 +21,20 @@ and open the template in the editor.
 #apellido1 {
 	margin-left: 30px
 }
+
+.apellido2 {
+    margin-left: 15px;
+}
+
+input {
+	background-color: white;
+	border: 0.0625rem solid #AAA;
+	/*border-left: none;*/
+	border-radius: 0px 0.125rem 0.125rem 0px;
+	color: black;
+	font-family: textcontent;
+	margin-top: 0.3125rem;
+	width: 100%;
+	padding-left: 0.3125rem;
+	height: 1.875rem;
+}
