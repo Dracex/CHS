@@ -23,10 +23,11 @@ and open the template in the editor.
 }
 
 .apellido2 {
-    margin-left: 15px;
+	margin-left: 15px;
 }
 
-input {
+input[type="text"], input[type="password"],
+input[type="mail"] {
 	background-color: white;
 	border: 0.0625rem solid #AAA;
 	/*border-left: none;*/
