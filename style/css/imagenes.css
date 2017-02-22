@@ -48,7 +48,7 @@ main > .imagen {
 
 @media screen and (min-width: 800px) {
 	main > .imagen {
-		display: block;
+		flex: 1 1 100%;
 		width: auto;
 		height: auto;
 		max-width: 100%;
