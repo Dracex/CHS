@@ -46,7 +46,7 @@ main > .imagen {
 	/*border: 1px solid #999;*/
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1126px) {
 	main > .imagen {
 		flex: 1 17% 27%;
 		width: auto;
