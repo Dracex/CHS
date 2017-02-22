@@ -21,7 +21,7 @@ main {
 
 main > .imagen {
 	border-radius: 3px;
-	flex: 1 10 50px;
+	flex: 1 1 27%;
 	margin: 20px;
 	height: auto;
 	width: auto;
@@ -46,7 +46,7 @@ main > .imagen {
 	/*border: 1px solid #999;*/
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
 	main > .imagen {
 		width: auto;
 		height: auto;
