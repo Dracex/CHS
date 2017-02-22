@@ -8,9 +8,9 @@
 $(document).ready(function () {
 	console.log("hola");
 	var ancho = $("#name").width();
-	console.log(ancho);
+	console.log("Ancho campo: " + ancho);
 	ancho2 = ancho / 2;
-	console.log(ancho2);
+	console.log("ancho campo /2:" + ancho2);
 	$("#apellido1").width(ancho2);
 	$("#apellido2").width(ancho2);
 	$(".repetir").width(ancho);
