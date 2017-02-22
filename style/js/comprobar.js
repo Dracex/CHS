@@ -11,7 +11,7 @@ $(document).ready(function () {
 		var pass = $("#passlog").val();
 	})
 
-	$("#entrar input").focusOut(function () {
+	$("#entrar input").focusout(function () {
 		var flag = "false";
 		$("#entrar input[type='mail'], #entrar input[type='password']").each(function () {
 			var campo = $.trim($(this).val());
