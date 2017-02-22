@@ -101,7 +101,7 @@
 						<h1>Perfil:</h1>
 						<form action="#" method="POST" id="modificarPerfil">
 							<fieldset>
-								<div id="nombreConfig">
+								<div class="categoria">
 									<div class="ico user-form ico-ses"></div>
 									<input type="text" value="<?= $_SESSION['user']?>" placeholder="Nombre" id="name">
 								</div>

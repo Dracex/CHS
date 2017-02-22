@@ -8,5 +8,12 @@ and open the template in the editor.
     Author     : christian
 */
 
-#apellido1 {
+.categoria {
+	align-items: center;
+	display: flex;
+	margin-top: 10px;
+}
+
+.categoria:first-child {
+	margin-top: 0px;
 }
