@@ -10,6 +10,6 @@ $(document).ready(function () {
 	console.log(ancho);
 	ancho = ancho / 2;
 	console.log(ancho);
-	$("#apellido1").width(ancho);
-	$("#apellido2").width(ancho);
+//	$("#apellido1").width(ancho);
+//	$("#apellido2").width(ancho);
 })
