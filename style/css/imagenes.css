@@ -21,7 +21,7 @@ main {
 
 main > .imagen {
 	border-radius: 3px;
-	flex: 1 10 15.5rem;
+	flex: 1 10 50px;
 	margin: 20px;
 	height: auto;
 	width: auto;
