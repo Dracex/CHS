@@ -105,10 +105,25 @@
 							<div class="categoria">
 								<input type="text" name="apellido1" id="apellido1" placeholder="Primer apellido..." value="<?= $_SESSION['apellido1']?>">
 								<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)" value="<?php
-											 if (isset ($_SESSION['apellido2'])) {
-												 echo $_SESSION['apellido2'];
-											 }
-											 ?>">
+								if (isset ($_SESSION['apellido2'])) {
+									echo $_SESSION['apellido2'];
+								}
+								?>">
+							</div>
+							<div class="categoria">
+								<div class="ico ico-ses" id="telefono"></div><input type="text" name="telefono" id="telefono" placeholder="Teléfono de contacto... ">
+							</div>
+							<div class="categoria">
+								<div class="ico ico-ses correo"></div><input type="mail" name="mailreg" id="mailreg" placeholder="Correo electrónico... ">
+							</div>
+							<div>
+								<input type="mail" class="repetir" name="mailreg2" id="mailreg2" placeholder="Repetir correo electrónico... ">
+							</div>
+							<div class="categoria">
+								<div class="ico pass-form ico-ses"></div><input type="password" name="passreg" id="passreg" placeholder="Contraseña... ">
+							</div>
+							<div>
+								<input type="password" class="repetir" name="pass2reg" id="pass2reg" placeholder="Repetir contraseña... ">
 							</div>
 							<input type="submit" value="Guardar">
 							<?php
