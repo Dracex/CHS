@@ -18,8 +18,12 @@ and open the template in the editor.
 	margin-top: 0px;
 }
 
-fieldset{
+form {
 	margin: auto;
+}
+
+fieldset{
+	padding: 5px;
 	background-color: #FFF;
 }
 
