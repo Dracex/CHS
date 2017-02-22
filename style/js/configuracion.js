@@ -6,10 +6,11 @@
 
 
 $(document).ready(function () {
-	var ancho = $("#name").width();
-	console.log(ancho);
-	ancho = ancho / 2;
-	console.log(ancho);
+	console.log("hola");
+//	var ancho = $("#name").width();
+//	console.log(ancho);
+//	ancho = ancho / 2;
+//	console.log(ancho);
 //	$("#apellido1").width(ancho);
 //	$("#apellido2").width(ancho);
 })
