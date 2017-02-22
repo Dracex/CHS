@@ -9,8 +9,9 @@ $(document).ready(function () {
 	console.log("hola");
 	var ancho = $("#name").width();
 	console.log(ancho);
-	ancho = ancho / 2;
-	console.log(ancho);
-	$("#apellido1").width(ancho);
-	$("#apellido2").width(ancho);
+	ancho2 = ancho / 2;
+	console.log(ancho2);
+	$("#apellido1").width(ancho2);
+	$("#apellido2").width(ancho2);
+	$(".repetir").width(ancho-30);
 })
