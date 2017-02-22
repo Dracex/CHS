@@ -17,3 +17,7 @@ and open the template in the editor.
 .categoria:first-child {
 	margin-top: 0px;
 }
+
+#apellido1 {
+	margin-left: 30px
+}
