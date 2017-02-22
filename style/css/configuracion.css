@@ -19,6 +19,7 @@ and open the template in the editor.
 }
 
 fieldset{
+	margin: auto;
 	background-color: #FFF;
 }
 
