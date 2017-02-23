@@ -74,10 +74,10 @@ $(document).ready(function () {
 	$("#addOffer > select").prop("disabled", true);
 // Write the onsingin event handler to hide the signin google button and show the logout button when we successfully log in to google.
 // Also enable all addOffer form elements
-	function onSignIns() {
+	function onSignIn() {
 		console.log("conectado");
-		$(".g-signin2").css("display", "none");
-		$("#logout").css("display", "block");
+//		$(".g-signin2").css("display", "none");
+//		$("#logout").css("display", "block");
 	}
 
 // When logout button is clicked, logout from google and then hide logout button, show signin button and disable form elements.
