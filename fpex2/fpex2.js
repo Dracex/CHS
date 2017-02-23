@@ -30,7 +30,6 @@ $(document).ready(function () {
 		var showData = $('#familias');
 		var familias = [];
 		var descripcion = [];
-
 		$.getJSON('oferta1314.json', function (data) {
 			var oferta1314 = data.oferta1314.map(function (item) {
 				if ($.inArray(item.Familia_cicle, familias) < 0) {
@@ -39,9 +38,7 @@ $(document).ready(function () {
 					objFamilias[item.Familia_cicle] = item.Id_centre + ", " + item.Illa_centre + ", " + item.Localitat_centre + ", " + item.Tipus_centre + ", " + item.Nom_centre + ", " + item.Clau_cicle + ", " + item.Familia_cicle + ", " + item.Nivell_cicle + ", " + item.Descripcio_cicle + ", " + item.Descripcio;
 				}
 			});
-
 			showData.empty();
-
 			if (oferta1314.length) {
 				for (var i = 0; i < familias.length; i++) {
 					showData.append("<div class='tooltip' id='" + familias[i] + "'><a href='javascript:void(0)'><img src='img/" + familias[i] + ".gif' /><span class='codi'>" + familias[i] + "</span><span class='tooltiptext'>" + descripcion[i] + "</span></a></div>");
@@ -53,11 +50,9 @@ $(document).ready(function () {
 		$("#familias").show();
 //		console.log("Mostrando familias..");
 	});
-
 // Add a line to trigger the click event on the first panel when the document loads
 
 	$("a[href='#verFamilias']").click();
-
 // Copy/paste the tooltip handlers from fpex1
 	$("#familias").on("click", ".tooltip", function () {
 		$("#ofertaFamilia").text("");
@@ -71,28 +66,19 @@ $(document).ready(function () {
 			$("#ofertaFamilia").append(data);
 		});
 	});
-
 // When a familia is clicked, show the tables but this time get the individual cicles and search the different schools were you can study them. See solution.
 
 
 // Write a line to initially make all the form elements disabled
 	$("#addOffer > input").prop("disabled", true);
 	$("#addOffer > select").prop("disabled", true);
-
 // Write the onsingin event handler to hide the signin google button and show the logout button when we successfully log in to google.
 // Also enable all addOffer form elements
-	$(".abcRioButton").click(function () {
-//		alert("Conectado");
-		if ($(".connectedojqsthckymu2").text() == "Signed in") {
-			console.log("conectado");
-			$(".g-signin2").css("display", "none");
-			$("#logout").css("display", "block");
-		} else {
-			console.log("no conectado");
-			$(".g-signin2").css("display", "block");
-			$("#logout").css("display", "none");
-		}
-	})
+	function onSignIns() {
+		console.log("conectado");
+		$(".g-signin2").css("display", "none");
+		$("#logout").css("display", "block");
+	}
 
 // When logout button is clicked, logout from google and then hide logout button, show signin button and disable form elements.
 
