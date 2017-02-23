@@ -89,12 +89,12 @@ $(document).ready(function () {
 
 // When logout button is clicked, logout from google and then hide logout button, show signin button and disable form elements.
 
-	function signOut() {
+	$("#signOut").click(function() {
 		var auth2 = gapi.auth2.getAuthInstance();
 		auth2.signOut().then(function () {
 			console.log('User signed out.');
 		});
-	}
+	});
 
 
 // When submit event is triggered:	
