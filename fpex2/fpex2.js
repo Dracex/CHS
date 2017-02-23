@@ -81,12 +81,12 @@ $(document).ready(function () {
 
 // When logout button is clicked, logout from google and then hide logout button, show signin button and disable form elements.
 
-	$("#signOut").click(function () {
+	$("#logout").click(function () {
 		var auth2 = gapi.auth2.getAuthInstance();
-		auth2.signOut().then(function () {
+		auth2.logout().then(function () {
 			console.log('User signed out.');
 			$(".g-signin2").show();
-			$(".signOut").hide();
+			$(".logout").hide();
 		});
 	});
 
@@ -109,6 +109,6 @@ function onSignIn(googleUser) {
 	console.log('Image URL: ' + profile.getImageUrl());
 	console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 	$(".g-signin2").hide();
-	$(".signOut").show();
+	$("#logout").show();
 	console.log("Connected");
 }
