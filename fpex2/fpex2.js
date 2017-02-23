@@ -74,15 +74,6 @@ $(document).ready(function () {
 	$("#addOffer > select").prop("disabled", true);
 // Write the onsingin event handler to hide the signin google button and show the logout button when we successfully log in to google.
 
-	function onSignIn(googleUser) {
-//		var profile = googleUser.getBasicProfile();
-//		console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-//		console.log('Name: ' + profile.getName());
-//		console.log('Image URL: ' + profile.getImageUrl());
-//		console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-		console.log("Connected");
-	}
-
 
 
 // Also enable all addOffer form elements
@@ -90,7 +81,7 @@ $(document).ready(function () {
 
 // When logout button is clicked, logout from google and then hide logout button, show signin button and disable form elements.
 
-	$("#signOut").click(function() {
+	$("#signOut").click(function () {
 		var auth2 = gapi.auth2.getAuthInstance();
 		auth2.signOut().then(function () {
 			console.log('User signed out.');
@@ -107,3 +98,13 @@ $(document).ready(function () {
 //	//	// Remember the data sent to the php must be in json format
 
 });
+
+
+function onSignIn(googleUser) {
+//		var profile = googleUser.getBasicProfile();
+//		console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+//		console.log('Name: ' + profile.getName());
+//		console.log('Image URL: ' + profile.getImageUrl());
+//		console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+	console.log("Connected");
+}
