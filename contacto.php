@@ -1,12 +1,4 @@
-<?php
-	include "contenido/contenido.php";
-	session_start ();
-	if (isset ($_SESSION['logged']) && $_SESSION['logged'] == true) {
-		$logged = $_SESSION['logged'];
-	} else {
-		$logged = false;
-	}
-?>
+<?php?>
 <!DOCTYPE html>
 <html lang="es">
 	<head>
@@ -47,7 +39,7 @@
 								}
 							?>
 							<li><a href="#">Foro<div class="ico derecha" id="foro"></div></a></li>
-							<li><a href="http://caminahaciasantiago.esy.es/contacto.php">Contáctanos<div class="ico derecha" id="info"></div></a></li>
+							<li><a href="#">Sobre...<div class="ico derecha" id="info"></div></a></li>
 							<?php
 								if (isset ($_SESSION["logged"])) {
 									if ($_SESSION["logged"]) {
@@ -158,73 +150,12 @@
 				</div>
 			</header>
 			<main>
-				<article>
-					<div class="pestanas">
-						<?php foreach ($nombresCaminos as $nombreCamino => $nombreCaminoUser) {?>
-								<span class="pestana" id="<?= $nombreCamino?>">
-									<?= $nombreCaminoUser?>
-								</span>
-							<?php }?>
-					</div>
-					<div id="contenido">
-						<?php foreach ($datosCaminos as $camino => $nombre) {
-								?>
-								<div class='<?= $camino?>'>
-									<p><?= $nombre?></p><br>
-									<a href="camino.php?camino=<?= $camino?>" target="_blank" class="mas">Ver más...</a>
-								</div>
-							<?php }?>
-					</div>
-				</article>
+
 			</main>
 			<footer>
 				<div class="blanco">
 					<a href="http://www.flaticon.com" title="Flaticon" target="_blank">Iconos diseñados por Freepik desde www.flaticon.comcon licencia CC 3.0 BY</a>
 				</div>
 			</footer>
-		</div>
-		<?php
-			if (isset ($_SESSION['err'])) {
-				$err = $_SESSION['err'];
-				echo "<script>";
-				switch ($err) {
-					case 'user':
-						echo 'alert("Ya hay un usuario correo");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'pass':
-						echo 'alert("Las contraseñas no coinciden");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'err':
-						echo 'alert("Ha ocurrido un error al registrar");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'bad':
-						echo 'alert("Usuario/Contraseña no correctos");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'noExists':
-						echo 'alert("El usuario no ha sido encontrado en la base de datos");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'errImg':
-						echo "alert('Ha ocurrido un error al subir la imágen al servidor');";
-						$_SESSION['err'] = "";
-						break;
-
-					case 'alert("Registro realizado correctamente");':
-						echo "none()";
-						$_SESSION['err'] = "";
-						break;
-				}
-				echo "</script>";
-			}
-		?>
 	</body>
 </html>
