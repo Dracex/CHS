@@ -182,5 +182,14 @@
 					<a href="http://www.flaticon.com" title="Flaticon" target="_blank">Iconos diseñados por Freepik desde www.flaticon.comcon licencia CC 3.0 BY</a>
 				</div>
 			</footer>
+			<?php 
+				echo "<script>";
+				if ($_SESSION['mailSent'] == "true") {
+					echo "alert('Mensaje enviado correctamente')";
+				} elseif ($_SESSION['mailSent'] == "false") {
+					echo "alert('El mensaje no ha sido enviado correctamente')";
+				}
+				echo "</script>";
+				?>
 	</body>
 </html>

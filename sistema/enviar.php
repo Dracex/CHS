@@ -1,5 +1,6 @@
 <?php
 
+	session_start ();
 	$nombre = $_POST['name'];
 	$apellido1 = $_POST['apellido1'];
 	$apellido2 = $_POST['apellido2'];
@@ -10,14 +11,16 @@
 	}
 	$correo = $_POST['mail'];
 	$mensaje = $_POST['mensaje'];
-	$mensaje = $nombre . " " . $apellido1 . $apellido2 . ": \n " . $mensaje;
+	$mensaje = $nombre . " " . $apellido1 . $apellido2 . ": \n" . $mensaje;
 	$mensaje = wordwrap ($mensaje, 70, "<br>");
 
 //	echo $correo . "<br>";
 //	echo $mensaje;
 	$enviado = mail ("christianjroche@gmail.com", "Formulario de contacto CHS", $mensaje);
 	if ($enviado == true) {
-		echo "Correo enviado correctamente";
+		$_SESSION['mailSent'] = "true";
+		header("Location: http://caminahaciasantiago.esy.es/contacto.php");
 	} else {
-		echo "El mensaje no ha sido enviado";
+		$_SESSION['mailSent'] = "false";
+		header("Location: http://caminahaciasantiago.esy.es/contacto.php");
 	}
