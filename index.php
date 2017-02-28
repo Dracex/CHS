@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<link rel="icon" type="image/png" href="http://localhost/CaminaASantiago/public_html/sys-images/favicon.png" />
+		<link rel="icon" type="image/png" href="http://caminahaciasantiago.esy.es/sys-images/favicon.png" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Camina hacia Santiago</title>
@@ -28,27 +28,27 @@
 		<div id="wrapper">
 			<header id="mainhead">
 				<div class="blanco">
-					<a href="http://localhost/CaminaASantiago/public_html/" id="tit"><div class="ico-tit"></div>Camina hacia Santiago</a>
+					<a href="http://caminahaciasantiago.esy.es/" id="tit"><div class="ico-tit"></div>Camina hacia Santiago</a>
 					<nav id="pcnav">
 						<ul>
 							<?php
 								if ($logged == true) {
 									?>
-									<li id="imgLog"><a href="http://localhost/CaminaASantiago/public_html/imagenes.php">Imágenes<div class="ico derecha" id="imagenes"></div></a>
+									<li id="imgLog"><a href="http://caminahaciasantiago.esy.es/imagenes.php">Imágenes<div class="ico derecha" id="imagenes"></div></a>
 										<ul id="dropImg" class="imgMenu">
-											<li><a href="http://localhost/CaminaASantiago/public_html/imagenes.php?action=upload">Subir mi imágen</a></li>
-											<li><a href="http://localhost/CaminaASantiago/public_html/imagenes.php?action=myImages">Ver mis Imágenes</a></li>
+											<li><a href="http://caminahaciasantiago.esy.es/imagenes.php?action=upload">Subir mi imágen</a></li>
+											<li><a href="http://caminahaciasantiago.esy.es/imagenes.php?action=myImages">Ver mis Imágenes</a></li>
 										</ul>
 									</li>
 									<?php
 								} else {
 									?>
-									<li id = "imgUnlog"><a href = "http://localhost/CaminaASantiago/public_html/imagenes.php">Imágenes<div class = "ico derecha" id = "imagenes"></div></a></li>
+									<li id = "imgUnlog"><a href = "http://caminahaciasantiago.esy.es/imagenes.php">Imágenes<div class = "ico derecha" id = "imagenes"></div></a></li>
 									<?php
 								}
 							?>
 							<li><a href="#">Foro<div class="ico derecha" id="foro"></div></a></li>
-							<li><a href="http://localhost/CaminaASantiago/public_html/contacto.php">Contáctanos<div class="ico derecha" id="info"></div></a></li>
+							<li><a href="http://caminahaciasantiago.esy.es/contacto.php">Contáctanos<div class="ico derecha" id="info"></div></a></li>
 							<?php
 								if (isset ($_SESSION["logged"])) {
 									if ($_SESSION["logged"]) {
@@ -56,7 +56,7 @@
 										<li><a class="user"><div id="user" class="user ico izquierda"></div><?= explode (" ", $_SESSION['user'])[0];?>
 												<div class="ico flechaAbajo derecha"></div></a>
 											<ul class="userMenu cerrar">
-												<li><a href="http://localhost/CaminaASantiago/public_html/configuracion.php">Perfil<div class="ico" id="config"></div></a></li>
+												<li><a href="http://caminahaciasantiago.esy.es/configuracion.php">Perfil<div class="ico" id="config"></div></a></li>
 												<li><a class="logout">Cerrar Sesión<div class="ico" id="logout"></div></a></li>
 											</ul>
 										</li>
@@ -69,7 +69,7 @@
 					<nav id="phonenav">
 						<span class="icon"><div class="ico" id="menu"></div></span>
 						<ul id="ul-phone" class="cerrar">
-							<li><a href="http://localhost/CaminaASantiago/public_html/imagenes.php">Imágenes</a></li>
+							<li><a href="http://caminahaciasantiago.esy.es/imagenes.php">Imágenes</a></li>
 							<li><a href="#">Foro</a></li>
 							<li><a href="#">Sobre...</a></li>
 							<?php
@@ -83,7 +83,7 @@
 												?>
 											</a>
 											<ul class="userMenu cerrar">
-												<li><a href="http://localhost/CaminaASantiago/public_html/configuracion.php">Perfil</a></li>
+												<li><a href="http://caminahaciasantiago.esy.es/configuracion.php">Perfil</a></li>
 												<li><a class="logout">Cerrar Sesión</div></a></li>
 											</ul>
 										</li>

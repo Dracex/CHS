@@ -15,8 +15,8 @@
 
 //	echo $correo . "<br>";
 //	echo $mensaje;
-	
-	if (mail ("christianjroche@gmail.com", "Contacto", $mensaje)) {
+	$enviado = mail ("christianjroche@gmail.com", "Contacto", $mensaje);
+	if ($enviado == true) {
 		echo "Correo enviado correctamente";
 	} else {
 		echo "El mensaje no ha sido enviado";
