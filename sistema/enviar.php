@@ -10,12 +10,12 @@
 	}
 	$correo = $_POST['mail'];
 	$mensaje = $_POST['mensaje'];
-	$mensaje = $nombre . " " . $apellido1 . $apellido2 . ": " . $mensaje;
+	$mensaje = $nombre . " " . $apellido1 . $apellido2 . ": <br> " . $mensaje;
 	$mensaje = wordwrap ($mensaje, 70, "<br>");
 
 //	echo $correo . "<br>";
 //	echo $mensaje;
-	$enviado = mail ("christianjroche@gmail.com", "Contacto", $mensaje);
+	$enviado = mail ("christianjroche@gmail.com", "Formulario de contacto CHS", $mensaje);
 	if ($enviado == true) {
 		echo "Correo enviado correctamente";
 	} else {
