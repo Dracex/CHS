@@ -163,7 +163,7 @@
 					<div class="encabezado">
 						<h1>Comunidad: Normas, sugerencias...</h1>
 					</div>
-					<a class="seccion">
+					<a href="#" class="seccion">
 						<h2>Normas del foro, sugerencias...</h2>
 						<div class="descripcion">
 							Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
@@ -180,13 +180,13 @@
 						<div class="informacion">
 							Temas: 5 | Mensaje: 7
 						</div>
-					</a>"
+					</a>
 				</div>
 				<div class="secciones">
 					<div class="encabezado">
 						<h1>Dudas generales</h1>
 					</div>
-					<a class="seccion">
+					<a href="#" class="seccion">
 						<h2>Albergues...</h2>
 						<div class="descripcion">
 							Aquí dispondrás de información acerca de los albergues (También podeis dejar vuestras críticas)
