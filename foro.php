@@ -158,30 +158,30 @@
 				</div>
 			</header>
 			<main>
-				<a href="#" class="secciones">
+				<div class="secciones">
 					<h1>Comunidad: Normas, sugerencias...</h1>
-					<div class="seccion">
+					<a class="seccion">
 						<h2>Normas del foro, sugerencias...</h2>
 						<div class="descripcion">
 							Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
 						</div>
-						<footer class="informacion">
+						<div class="informacion">
 							Temas: 1 | Mensaje: 3
-						</footer>
-					</div>
-				</a>
-				<a href="#" class="secciones">
+						</div>
+					</a>
+				</div>
+				<div class="secciones">
 					<h1>Dudas generales</h1>
-					<div class="seccion">
+					<a class="seccion">
 						<h2>Albergues...</h2>
 						<div class="descripcion">
 							Aquí dispondrás de información acerca de los albergues (También podeis dejar vuestras críticas)
 						</div>
-						<footer class="informacion">
+						<div class="informacion">
 							Temas: 1 | Mensaje: 3
-						</footer>
-					</div>
-				</a>
+						</div>
+					</a>
+				</div>
 			</main>
 			<footer>
 				<div class="blanco">
