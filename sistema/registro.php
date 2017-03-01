@@ -31,7 +31,7 @@
 
 	try {
 		$passEncrypted = password_hash ($contra_user, PASSWORD_BCRYPT);
-		$insertar = "INSERT INTO users (nombre, apellido1, apellido2, contrasena, correo, activo) VALUES ('$user_user', ' $apellido1_user', '$apellido2_user', '$passEncrypted', '$mail_user', $activo);";
+		$insertar = "INSERT INTO users (nombre, apellido1, apellido2, contrasena, correo, activo) VALUES ('$user_user', '$apellido1_user', '$apellido2_user', '$passEncrypted', '$mail_user', $activo);";
 		$resultadoInsertar = $conn->query ($insertar);
 		if (!$resultadoInsertar) {
 			$_SESSION['err'] = "err";
