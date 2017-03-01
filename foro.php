@@ -159,47 +159,74 @@
 				</div>
 			</header>
 			<main>
-				<div class="secciones">
-					<div class="encabezado">
-						<h1>Comunidad: Normas, sugerencias...</h1>
-					</div>
-					<a href="#" class="seccion">
-						<h2>Normas del foro, sugerencias...</h2>
-						<div class="descripcion">
-							Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
+				<?php if (empty ($_GET['action'])) {?>
+						<div class="secciones">
+							<div class="encabezado">
+								<h1>Comunidad: Normas, sugerencias...</h1>
+							</div>
+							<a href="#" class="seccion">
+								<h2>Normas del foro, sugerencias...</h2>
+								<div class="descripcion">
+									Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
+								</div>
+								<div class="informacion">
+									Temas: 1 | Mensaje: 3
+								</div>
+							</a>
+							<a href="http://caminahaciasantiago.esy.es/foro/nuevosUsuarios.php" class="seccion">
+								<h2>Usuarios nuevos...</h2>
+								<div class="descripcion">
+									Si sois nuevos usuarios en el foro, pasaros por aquí, y presentaros, será un placer para nosotros daros la bienvenida!
+								</div>
+								<div class="informacion">
+									Temas: 5 | Mensaje: 7
+								</div>
+							</a>
 						</div>
-						<div class="informacion">
-							Temas: 1 | Mensaje: 3
+						<div class="secciones">
+							<div class="encabezado">
+								<h1>Dudas generales</h1>
+							</div>
+							<a href="#" class="seccion">
+								<h2>Albergues...</h2>
+								<div class="descripcion">
+									Aquí dispondrás de información acerca de los albergues (También podeis dejar vuestras críticas)
+								</div>
+								<div class="informacion">
+									Temas: 1 | Mensaje: 3
+								</div>
+							</a>
 						</div>
-					</a>
-					<a href="http://caminahaciasantiago.esy.es/foro/nuevosUsuarios.php" class="seccion">
-						<h2>Usuarios nuevos...</h2>
-						<div class="descripcion">
-							Si sois nuevos usuarios en el foro, pasaros por aquí, y presentaros, será un placer para nosotros daros la bienvenida!
+					<?php }?>
+				<?php if (isset ($_GET['action']) && $_GET['action'] == "normas") {?>
+					<div class="hilos">
+							<div class="encabezado">
+								<h1>Presentación</h1>
+							</div>
+							<a href="http://caminahaciasantiago.esy.es/foro.php?action=normas" class="hilo">
+								<h2>Normas del foro, sugerencias...</h2>
+								<div class="descripcion">
+									Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
+								</div>
+								<div class="informacion">
+									Respuestas: 1 | Visitas: 3
+								</div>
+							</a>
+							<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="hilo">
+								<h2>Usuarios nuevos...</h2>
+								<div class="descripcion">
+									Si sois nuevos usuarios en el foro, pasaros por aquí, y presentaros, será un placer para nosotros daros la bienvenida!
+								</div>
+								<div class="informacion">
+									Temas: 5 | Mensaje: 7
+								</div>
+							</a>
 						</div>
-						<div class="informacion">
-							Temas: 5 | Mensaje: 7
-						</div>
-					</a>
-				</div>
-				<div class="secciones">
-					<div class="encabezado">
-						<h1>Dudas generales</h1>
-					</div>
-					<a href="#" class="seccion">
-						<h2>Albergues...</h2>
-						<div class="descripcion">
-							Aquí dispondrás de información acerca de los albergues (También podeis dejar vuestras críticas)
-						</div>
-						<div class="informacion">
-							Temas: 1 | Mensaje: 3
-						</div>
-					</a>
-				</div>
+					<?php }?>
 			</main>
 			<footer>
-				<div class="blanco">
-					<a href="http://www.flaticon.com" title="Flaticon" target="_blank">Iconos diseñados por Freepik desde www.flaticon.comcon licencia CC 3.0 BY</a>
+				<div class = "blanco">
+					<a href = "http://www.flaticon.com" title = "Flaticon" target = "_blank">Iconos diseñados por Freepik desde www.flaticon.comcon licencia CC 3.0 BY</a>
 				</div>
 			</footer>
 		</div>
