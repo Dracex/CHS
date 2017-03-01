@@ -164,7 +164,7 @@
 							<div class="encabezado">
 								<h1>Comunidad: Normas, sugerencias...</h1>
 							</div>
-							<a href="#" class="seccion">
+							<a href="http://caminahaciasantiago.esy.es/foro.php?action=normas" class="seccion">
 								<h2>Normas del foro, sugerencias...</h2>
 								<div class="descripcion">
 									Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
@@ -173,7 +173,7 @@
 									Temas: 1 | Mensaje: 3
 								</div>
 							</a>
-							<a href="http://caminahaciasantiago.esy.es/foro/nuevosUsuarios.php" class="seccion">
+							<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios.php" class="seccion">
 								<h2>Usuarios nuevos...</h2>
 								<div class="descripcion">
 									Si sois nuevos usuarios en el foro, pasaros por aquí, y presentaros, será un placer para nosotros daros la bienvenida!
