@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="style/css/estructura.css">
 		<link rel="stylesheet" href="style/css/menu.css">
 		<link rel="stylesheet" href="style/css/modal.css">
+		<link rel="stylesheet" href="style/css/foro.css">
 		<script src="style/js/jQuery.js"></script>
 		<script src="style/js/jQueryGeneral.js"></script>
 		<script src="style/js/comprobar.js"></script>
