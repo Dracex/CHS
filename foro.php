@@ -172,7 +172,7 @@
 							Temas: 1 | Mensaje: 3
 						</div>
 					</a>
-					<a href="#" class="seccion">
+					<a href="http://caminahaciasantiago.esy.es/foro/nuevosUsuarios.php" class="seccion">
 						<h2>Usuarios nuevos...</h2>
 						<div class="descripcion">
 							Si sois nuevos usuarios en el foro, pasaros por aquí, y presentaros, será un placer para nosotros daros la bienvenida!
