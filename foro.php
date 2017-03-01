@@ -174,12 +174,12 @@
 					<h1>Dudas generales</h1>
 					<div class="seccion">
 						<h2>Albergues...</h2>
-						<footer class="descripcion">
+						<div class="descripcion">
 							Aquí dispondrás de información acerca de los albergues (También podeis dejar vuestras críticas)
-						</footer>
-						<div class="informacion">
-							Temas: 1 | Mensaje: 3
 						</div>
+						<footer class="informacion">
+							Temas: 1 | Mensaje: 3
+						</footer>
 					</div>
 				</a>
 			</main>
