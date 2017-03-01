@@ -9,11 +9,11 @@ main {
 	justify-content: space-between;
 	margin: 0 auto;
 	margin-bottom: 40px;
+	margin-top: 75px;
 	overflow: visible;
 	padding-top: 3.75rem;
 	padding-bottom: 2.5rem;
 	padding: 0px;
-	top: 75px;
 	width: 90%;
 
 	display: -webkit-flex;
