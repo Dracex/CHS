@@ -23,3 +23,7 @@ and open the template in the editor.
 .secciones div, .secciones h2 {
 	padding: 5px;
 }
+
+.descripcion {
+	padding-left: 10px;
+}

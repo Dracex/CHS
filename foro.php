@@ -160,7 +160,9 @@
 			</header>
 			<main>
 				<div class="secciones">
-					<h1>Comunidad: Normas, sugerencias...</h1>
+					<div class="encabezado">
+						<h1>Comunidad: Normas, sugerencias...</h1>
+					</div>
 					<a class="seccion">
 						<h2>Normas del foro, sugerencias...</h2>
 						<div class="descripcion">
@@ -172,7 +174,9 @@
 					</a>
 				</div>
 				<div class="secciones">
-					<h1>Dudas generales</h1>
+					<div class="encabezado">
+						<h1>Dudas generales</h1>
+					</div>
 					<a class="seccion">
 						<h2>Albergues...</h2>
 						<div class="descripcion">
