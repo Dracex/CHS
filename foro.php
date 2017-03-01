@@ -206,7 +206,7 @@
 							<a href="http://caminahaciasantiago.esy.es/foro.php?action=normas" class="hilo">
 								<h2>Hola! Me llamo Christian</h2>
 								<div class="descripcion">
-									Iniciado por Christian
+									Iniciado por Christian, 01/03/2017 - 16:54
 								</div>
 								<div class="informacion">
 									Respuestas: 1 | Visitas: 3
