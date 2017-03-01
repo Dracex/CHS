@@ -172,6 +172,15 @@
 							Temas: 1 | Mensaje: 3
 						</div>
 					</a>
+					<a href="#" class="seccion">
+						<h2>Usuarios nuevos...</h2>
+						<div class="descripcion">
+							Si sois nuevos usuarios en el foro, pasaros por aquí, y presentaros, será un placer para nosotros daros la bienvenida!
+						</div>
+						<div class="informacion">
+							Temas: 5 | Mensaje: 7
+						</div>
+					</a>"
 				</div>
 				<div class="secciones">
 					<div class="encabezado">
