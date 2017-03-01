@@ -14,7 +14,7 @@ and open the template in the editor.
 	margin: 5px;
 }
 
-.secciones > h1 {
+.encabezado {
 	background-color: #000;
 	border-bottom: 1px solid black; 
 	padding: 5px;
