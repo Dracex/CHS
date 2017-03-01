@@ -173,7 +173,7 @@
 									Temas: 1 | Mensaje: 3
 								</div>
 							</a>
-							<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios.php" class="seccion">
+							<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="seccion">
 								<h2>Usuarios nuevos...</h2>
 								<div class="descripcion">
 									Si sois nuevos usuarios en el foro, pasaros por aquí, y presentaros, será un placer para nosotros daros la bienvenida!
@@ -198,7 +198,7 @@
 							</a>
 						</div>
 					<?php }?>
-				<?php if (isset ($_GET['action']) && $_GET['action'] == "normas") {?>
+				<?php if (isset ($_GET['action']) && $_GET['action'] == "nuevosUsuarios") {?>
 					<div class="hilos">
 							<div class="encabezado">
 								<h1>Presentación</h1>
