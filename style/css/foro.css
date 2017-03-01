@@ -15,7 +15,7 @@ and open the template in the editor.
 }
 
 .secciones > h1 {
-	background-color: rgba (100,100,100,1);
+	background-color: #000;
 	border-bottom: 1px solid black; 
 	padding: 5px;
 }
