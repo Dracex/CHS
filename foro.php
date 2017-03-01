@@ -158,24 +158,32 @@
 				</div>
 			</header>
 			<main>
-				<article>
-					<div class="pestanas">
-						<?php foreach ($nombresCaminos as $nombreCamino => $nombreCaminoUser) {?>
-								<span class="pestana" id="<?= $nombreCamino?>">
-									<?= $nombreCaminoUser?>
-								</span>
-							<?php }?>
+				<a href="#" class="secciones">
+					<h1>Comunidad: Normas, sugerencias...</h1>
+					<div class="seccion">
+						<h2>Normas del foro, sugerencias...</h2>
+						<div class="descripcion">
+							Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
+						</div>
+						<div class="informacion">
+							Temas: 1 <br>
+							Mensaje: 3
+						</div>
 					</div>
-					<div id="contenido">
-						<?php foreach ($datosCaminos as $camino => $nombre) {
-								?>
-								<div class='<?= $camino?>'>
-									<p><?= $nombre?></p><br>
-									<a href="camino.php?camino=<?= $camino?>" target="_blank" class="mas">Ver más...</a>
-								</div>
-							<?php }?>
+				</a>
+				<a href="#" class="secciones">
+					<h1>Dudas generales</h1>
+					<div class="seccion">
+						<h2>Albergues...</h2>
+						<div class="descripcion">
+							Aquí dispondrás de información acerca de los albergues (También podeis dejar vuestras críticas)
+						</div>
+						<div class="informacion">
+							Temas: 1 <br>
+							Mensaje: 3
+						</div>
 					</div>
-				</article>
+				</a>
 			</main>
 			<footer>
 				<div class="blanco">
@@ -183,48 +191,5 @@
 				</div>
 			</footer>
 		</div>
-		<?php
-			if (isset ($_SESSION['err'])) {
-				$err = $_SESSION['err'];
-				echo "<script>";
-				switch ($err) {
-					case 'user':
-						echo 'alert("Ya hay un usuario correo");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'pass':
-						echo 'alert("Las contraseñas no coinciden");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'err':
-						echo 'alert("Ha ocurrido un error al registrar");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'bad':
-						echo 'alert("Usuario/Contraseña no correctos");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'noExists':
-						echo 'alert("El usuario no ha sido encontrado en la base de datos");';
-						$_SESSION['err'] = "";
-						break;
-
-					case 'errImg':
-						echo "alert('Ha ocurrido un error al subir la imágen al servidor');";
-						$_SESSION['err'] = "";
-						break;
-
-					case 'alert("Registro realizado correctamente");':
-						echo "none()";
-						$_SESSION['err'] = "";
-						break;
-				}
-				echo "</script>";
-			}
-		?>
 	</body>
 </html>
