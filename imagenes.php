@@ -56,7 +56,7 @@
 								}
 							?>
 							<li><a href="#">Foro<div class="ico derecha" id="foro"></div></a></li>
-							<li><a href="#">Sobre...<div class="ico derecha" id="info"></div></a></li>
+							<li><a href="http://caminahaciasantiago.esy.es/contacto.php">Contáctanos<div class="ico derecha" id="info"></div></a></li>
 							<?php
 								if (isset ($_SESSION["logged"])) {
 									if ($_SESSION["logged"]) {
