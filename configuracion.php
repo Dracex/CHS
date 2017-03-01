@@ -47,7 +47,7 @@
 									<?php
 								}
 							?>
-							<li><a href="#">Foro<div class="ico derecha" id="foro"></div></a></li>
+							<li><a href="http://caminahaciasantiago.esy.es/contacto.php">Contáctanos</a></li>
 							<li><a href="#">Sobre...<div class="ico derecha" id="info"></div></a></li>
 							<?php
 								if (isset ($_SESSION["logged"])) {
@@ -71,7 +71,7 @@
 						<ul id="ul-phone" class="cerrar">
 							<li><a href="http://caminahaciasantiago.esy.es/imagenes.php">Imágenes</a></li>
 							<li><a href="#">Foro</a></li>
-							<li><a href="#">Sobre...</a></li>
+							<li><a href="http://caminahaciasantiago.esy.es/contacto.php">Contáctanos</a></li>
 							<?php
 								if (isset ($_SESSION['logged'])) {
 									if ($_SESSION['logged']) {
