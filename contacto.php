@@ -181,10 +181,10 @@
 							</div>
 							<div class="categoria2">
 								<input type="text" name="apellido1" id="apellido1" placeholder="Primer apellido..." readonly="readonly" value="<?= $_SESSION['apellido1']?>">
-								<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)" readonly="readonly" value="<?= $_SESSION['apellido2']?>">
+								<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)" readonly="readonly" value="<?= $_SESSION['apellido2']?>" readonly="readonly">
 							</div>
 							<div class="categoria">
-								<div class="ico ico-ses correo"></div><input type="mail" name="mail" id="mail" placeholder="Correo electrónico... ">
+								<div class="ico ico-ses correo"></div><input type="mail" name="mail" id="mail" placeholder="Correo electrónico... " value="<?= $_SESSION['correo']?>" readonly="readonly">
 							</div>
 						<?php }?>
 					<textarea placeholder="Déjanos tu mensaje aquí..." name="mensaje"></textarea>

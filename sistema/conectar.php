@@ -18,6 +18,7 @@
 			if ($mail_user == $mail_db) {
 				$igual = password_verify ($contra_user, $contra_db);
 				if ($igual) {
+					$_SESSION['correo'] = $mail_db;
 					$_SESSION['err'] = "";
 					$_SESSION['logged'] = "true";
 					$_SESSION['user'] = $datos['nombre'];
