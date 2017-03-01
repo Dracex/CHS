@@ -111,10 +111,10 @@
 								?>">
 							</div>
 							<div class="categoria">
-								<div class="ico ico-ses" id="telefono"></div><input type="text" name="telefono" id="telefono" placeholder="Teléfono de contacto... ">
+								<div class="ico ico-ses" id="telefono"></div><input type="text" name="telefono" id="telefono" placeholder="Teléfono de contacto... " value="<?php if (isset($_SESSION['telefono'])) {echo $_SESSION['telefono'];}?>">
 							</div>
 							<div class="categoria">
-								<div class="ico ico-ses correo"></div><input type="mail" name="mailreg" id="mailreg" placeholder="Correo electrónico... ">
+								<div class="ico ico-ses correo"></div><input type="mail" name="mailreg" id="mailreg" placeholder="Correo electrónico... " value="<?=$_SESSION['correo']?>">
 							</div>
 							<div>
 								<input type="mail" class="repetir" name="mailreg2" id="mailreg2" placeholder="Repetir correo electrónico... ">
