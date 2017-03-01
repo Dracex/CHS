@@ -22,7 +22,6 @@
 		<script src="style/js/jQueryGeneral.js"></script>
 		<script src="style/js/comprobar.js"></script>
 		<script src="style/js/ajax.js"></script>
-		<script src="style/js/index.js"></script>
 	</head>
 	<body>
 		<div id="wrapper">
