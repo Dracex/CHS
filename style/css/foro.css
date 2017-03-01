@@ -9,6 +9,7 @@ and open the template in the editor.
 */
 
 .secciones {
+	background-color: rgba(100,100,100,0.5);
 	border: 1px solid black;
 	border-radius: 3px;
 	margin: 10px;
@@ -29,7 +30,6 @@ and open the template in the editor.
 }
 
 .seccion {
-	background-color: rgba(100,100,100,0.5);
 	margin: 10px;
 }
 
