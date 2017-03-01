@@ -11,11 +11,11 @@ and open the template in the editor.
 .secciones {
 	border: 1px solid black;
 	border-radius: 3px;
-	padding: 5px;
 	margin: 5px;
 }
 
 .secciones > h1 {
-	background-color: rgba (100,100,100,0.7);
+	background-color: rgba (100,100,100,1);
 	border-bottom: 1px solid black; 
+	padding: 5px;
 }
