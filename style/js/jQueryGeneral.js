@@ -1,4 +1,13 @@
 $(document).ready(function () {
+	if ($("#imgLog").length) {
+		var elemento = $("#imgLog");
+		var pos = elemento.position();
+		var ancho = elemento.width();
+		var izquierda = pos.left;
+		$("#dropImg").css("left", izquierda);
+		$("#dropImg").css("width", ancho);
+	}
+
 	$(".li-ses").click(function () {
 		$("#myModal").fadeIn(200);
 		$("#myModal").css("display", "flex");
@@ -9,15 +18,6 @@ $(document).ready(function () {
 
 		if ($("#entrar").hasClass("oculto")) {
 			$("#entrar").removeClass("oculto");
-		}
-
-		if ($("#imgLog").length) {
-			var elemento = $("#imgLog");
-			var pos = elemento.position();
-			var ancho = elemento.width();
-			var izquierda = pos.left;
-			$("#dropImg").css("left", izquierda);
-			$("#dropImg").css("width", ancho);
 		}
 
 		$("#entrar #userlog").focus();
