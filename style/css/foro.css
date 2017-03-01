@@ -15,7 +15,7 @@ and open the template in the editor.
 }
 
 .encabezado {
-	background-color: #000;
+	background-color: rgba(100,100,100,0.5);
 	border-bottom: 1px solid black; 
 	padding: 5px;
 }
