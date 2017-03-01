@@ -162,17 +162,31 @@
 			<main>
 				<h1>Contáctanos!</h1>
 				<form action="sistema/enviar.php" method="POST">
-					<div class="categoria">
-						<div class="ico user-form ico-ses"></div>
-						<input type="text" name="name" placeholder="Nombre" id="name">
-					</div>
-					<div class="categoria2">
-						<input type="text" name="apellido1" id="apellido1" placeholder="Primer apellido...">
-						<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)">
-					</div>
-					<div class="categoria">
-						<div class="ico ico-ses correo"></div><input type="mail" name="mail" id="mail" placeholder="Correo electrónico... ">
-					</div>
+					<?php if ($logged == false) {?>
+							<div class="categoria">
+								<div class="ico user-form ico-ses"></div>
+								<input type="text" name="name" placeholder="Nombre" id="name">
+							</div>
+							<div class="categoria2">
+								<input type="text" name="apellido1" id="apellido1" placeholder="Primer apellido...">
+								<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)">
+							</div>
+							<div class="categoria">
+								<div class="ico ico-ses correo"></div><input type="mail" name="mail" id="mail" placeholder="Correo electrónico... ">
+							</div>
+						<?php } else {?>
+							<div class="categoria">
+								<div class="ico user-form ico-ses"></div>
+								<input type="text" name="name" placeholder="Nombre" id="name" value="<?= $_SESSION['user']?>" readonly="readonly">
+							</div>
+							<div class="categoria2">
+								<input type="text" name="apellido1" id="apellido1" placeholder="Primer apellido..." readonly="readonly" value="<?= $_SESSION['apellido1']?>">
+								<input type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido... (Opcional)" readonly="readonly" value="<?= $_SESSION['apellido2']?>">
+							</div>
+							<div class="categoria">
+								<div class="ico ico-ses correo"></div><input type="mail" name="mail" id="mail" placeholder="Correo electrónico... ">
+							</div>
+						<?php }?>
 					<textarea placeholder="Déjanos tu mensaje aquí..." name="mensaje"></textarea>
 					<input type="submit" value="Mandar">
 				</form>
@@ -182,14 +196,14 @@
 					<a href="http://www.flaticon.com" title="Flaticon" target="_blank">Iconos diseñados por Freepik desde www.flaticon.comcon licencia CC 3.0 BY</a>
 				</div>
 			</footer>
-			<?php 
+			<?php
 				echo "<script>";
 				if ($_SESSION['mailSent'] == "true") {
-					echo "alert('Mensaje enviado correctamente')";
+					echo "alert('Mensaje enviado correctamente. \n En breve le responderemos')";
 				} elseif ($_SESSION['mailSent'] == "false") {
 					echo "alert('El mensaje no ha sido enviado correctamente')";
 				}
 				echo "</script>";
-				?>
+			?>
 	</body>
 </html>
