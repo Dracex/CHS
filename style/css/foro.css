@@ -11,12 +11,12 @@ and open the template in the editor.
 .secciones {
 	background-color: rgba(255,255,255,0.6);
 	border: 1px solid black;
-	border-radius: 3px;
+	border-radius: 5px;
 	margin: 10px;
 }
 
 .encabezado {
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,200,200,0.8);
 	border-bottom: 1px solid black; 
 	padding: 5px;
 }
