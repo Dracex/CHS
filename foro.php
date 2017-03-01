@@ -204,21 +204,12 @@
 								<h1>Presentación</h1>
 							</div>
 							<a href="http://caminahaciasantiago.esy.es/foro.php?action=normas" class="hilo">
-								<h2>Normas del foro, sugerencias...</h2>
+								<h2>Hola! Me llamo Christian</h2>
 								<div class="descripcion">
-									Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
+									Iniciado por Christian
 								</div>
 								<div class="informacion">
 									Respuestas: 1 | Visitas: 3
-								</div>
-							</a>
-							<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="hilo">
-								<h2>Usuarios nuevos...</h2>
-								<div class="descripcion">
-									Si sois nuevos usuarios en el foro, pasaros por aquí, y presentaros, será un placer para nosotros daros la bienvenida!
-								</div>
-								<div class="informacion">
-									Temas: 5 | Mensaje: 7
 								</div>
 							</a>
 						</div>
