@@ -54,6 +54,11 @@ textarea {
 	/*resize: none;*/
 }
 
+#respuestaRapida {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 #volver {
 	background-image: url(../../sys-images/sprite.png);
 	background-position: -110px -17px;
