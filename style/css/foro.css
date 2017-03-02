@@ -15,7 +15,7 @@ and open the template in the editor.
 	margin: 10px;
 }
 
-.secciones div, .secciones h2, .hilos div, .hilos h2, .mensajes h2, .mensajes div, #respuestaRapida {
+.secciones div, .secciones h2, .hilos div, .hilos h2, .mensajes h2, #respuestaRapida {
 	padding: 5px;
 }
 
