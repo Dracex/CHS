@@ -30,7 +30,7 @@ and open the template in the editor.
 	padding-left: 10px;
 }
 
-.seccion, .hilo, .mensaje {
+.seccion, .hilo, .mensaje, textarea {
 	margin: 10px;
 }
 
