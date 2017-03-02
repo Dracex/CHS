@@ -211,7 +211,7 @@
 									Iniciado por Christian, 01/03/2017 - 16:54
 								</div>
 								<div class="informacion">
-									Respuestas: 0 | Visitas: 3
+									Respuestas: 1 | Visitas: 3
 								</div>
 							</a>
 						</div>
@@ -226,7 +226,17 @@
 								<p>Hola! Me llamo Christian, soy de Mallorca y tengo 20 años</p>
 							</div>
 							<div class="mensaje">
-								<p>Bienvenido al foro!</p>
+								<p>
+
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat eleifend magna, tempus venenatis urna volutpat eget. Cras laoreet quam a eros dictum, tempus fermentum nisl pretium. Ut vehicula nulla vel tincidunt efficitur. Phasellus malesuada id lectus sit amet efficitur. Duis leo tortor, egestas nec semper at, rhoncus vel dui. Suspendisse erat ex, ultrices non dapibus ac, lacinia a dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sed pulvinar justo. Phasellus id dolor nisl. Quisque pellentesque, nisi ut eleifend hendrerit, tortor augue condimentum diam, id vehicula turpis lacus eget tellus. Sed et tortor gravida, eleifend erat non, bibendum turpis. Cras facilisis enim dignissim nibh molestie lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce non interdum urna, et ullamcorper leo. Cras eu eros urna. Quisque vitae risus euismod, blandit orci nec, euismod dui.
+
+									Nam a aliquet quam. Integer nec elit aliquam nisi convallis tempor. Praesent pharetra venenatis arcu, vitae suscipit ex rutrum nec. Sed scelerisque quam quis lectus maximus mollis. Aenean mollis aliquet fermentum. Nam posuere lectus sapien, eget porta sapien efficitur vel. Sed mattis diam eu ante pulvinar, ut egestas dolor fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut a auctor tortor. Suspendisse dictum magna mi, eu ultrices nisi tincidunt ut. Praesent quis varius justo. Praesent ut dolor interdum orci malesuada hendrerit. Pellentesque elementum purus erat, fringilla sollicitudin quam tincidunt non. Suspendisse id lorem feugiat, auctor erat eu, egestas elit. In rhoncus felis imperdiet sagittis dapibus. Proin nec nulla semper, rutrum erat blandit, sagittis erat.
+
+									Curabitur lobortis lacinia turpis, ut auctor sem facilisis et. Donec a aliquet erat. Fusce lobortis id mi tristique auctor. Nulla feugiat aliquam massa malesuada convallis. Curabitur a velit vel justo rutrum malesuada et quis erat. Pellentesque egestas sagittis ornare. Suspendisse sollicitudin enim in libero feugiat, ut elementum nunc ornare.
+
+									Nulla ultrices diam id ante vulputate, sit amet gravida elit gravida. Integer eu molestie enim. Fusce efficitur neque nec metus dictum hendrerit. Nam tincidunt urna in tristique egestas. Donec rutrum varius nisi vel imperdiet. Suspendisse potenti. Fusce non tempus quam. Pellentesque venenatis felis et tempor congue.
+
+									Ut vulputate augue sollicitudin neque vehicula luctus. Praesent cursus porttitor accumsan. Nam tincidunt ligula quis imperdiet vulputate. In ullamcorper, tellus sit amet pellentesque congue, ipsum sapien fringilla felis, sed lobortis mauris justo vitae risus. Vestibulum pretium, ex a molestie pulvinar, neque mauris gravida ipsum, et lacinia augue turpis finibus justo. Quisque viverra, augue vel accumsan volutpat, sem ligula viverra felis, ut pretium nisi mi vel magna. In pharetra nisl purus. Nunc at gravida ex. Nulla vitae erat ipsum. In lobortis erat eget interdum rutrum. Nunc lobortis eu justo eget sagittis. Fusce ultrices dui a urna sodales, eu fringilla ligula imperdiet. Phasellus tristique dui malesuada lectus facilisis interdum. Vestibulum varius, nulla ac hendrerit dapibus, leo velit tempus justo, in rhoncus metus eros vel nibh. Suspendisse efficitur sem vehicula sapien vulputate, molestie accumsan lacus hendrerit. </p>
 							</div>
 						</div>
 						<?php if ($logged == true) {?>
