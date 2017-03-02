@@ -11,7 +11,7 @@
 	}
 	$correo = $_POST['mail'];
 	$mensaje = $_POST['mensaje'];
-	$mensaje = $nombre . " " . $apellido1 . $apellido2 . ": \n" . $mensaje;
+	$mensaje = $nombre . " " . $apellido1 . $apellido2 . " con correo: " . $correo . ": \n" . $mensaje;
 	$mensaje = wordwrap ($mensaje, 70, "<br>");
 
 //	echo $correo . "<br>";
@@ -19,8 +19,8 @@
 	$enviado = mail ("christianjroche@gmail.com", "Formulario de contacto CHS", $mensaje);
 	if ($enviado == true) {
 		$_SESSION['mailSent'] = "true";
-		header("Location: http://caminahaciasantiago.esy.es/contacto.php");
+		header ("Location: http://caminahaciasantiago.esy.es/contacto.php");
 	} else {
 		$_SESSION['mailSent'] = "false";
-		header("Location: http://caminahaciasantiago.esy.es/contacto.php");
+		header ("Location: http://caminahaciasantiago.esy.es/contacto.php");
 	}
