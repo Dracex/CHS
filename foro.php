@@ -225,6 +225,9 @@
 							<div class="mensaje">
 								<p>Hola! Me llamo Christian, soy de Mallorca y tengo 20 años</p>
 							</div>
+							<div class="mensaje">
+								<p>Bienvenido al foro!</p>
+							</div>
 						</div>
 						<?php if ($logged == true) {?>
 							<form action="#" method="POST" id="respuestaRapida">
