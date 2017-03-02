@@ -202,8 +202,8 @@
 				<?php if (isset ($_GET['action']) && $_GET['action'] == "nuevosUsuarios") {?>
 						<div class="hilos">
 							<div class="encabezado">
-								<a href="http://caminahaciasantiago.esy.es/foro.php" class="volver"><div id="volver"></div></a>
 								<h1>Presentación</h1>
+								<a href="http://caminahaciasantiago.esy.es/foro.php" class="volver"><div id="volver"></div></a>
 							</div>
 							<a href="http://caminahaciasantiago.esy.es/foro.php?action=1-Hola!-Me-llamo-Christian" class="hilo">
 								<h2>Hola! Me llamo Christian</h2>
