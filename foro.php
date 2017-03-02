@@ -171,7 +171,7 @@
 									Colabora para que vayamos mejorando cada dia, leete las normas del foro para un correcto uso de este. También puedes dejar tus opiniones en lo que creas que poemos mejorar.
 								</div>
 								<div class="informacion">
-									Temas: 0 | Mensaje: 0
+									Temas: 0 | Mensaje: 0 (Al no contener nada, no está programado)
 								</div>
 							</a>
 							<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="seccion">
@@ -194,7 +194,7 @@
 									Aquí dispondrás de información acerca de los albergues (También podeis dejar vuestras críticas)
 								</div>
 								<div class="informacion">
-									Temas: 1 | Mensaje: 3
+									Temas: 0 | Mensaje: 0 (Al no contener nada, no está programado)
 								</div>
 							</a>
 						</div>
