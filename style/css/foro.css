@@ -45,7 +45,7 @@ and open the template in the editor.
 }
 
 .mensaje:first-child {
-	border-top: 20px solid black;
+	border: 20px solid black;
 }
 
 a {
