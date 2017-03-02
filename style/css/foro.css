@@ -45,7 +45,7 @@ a {
 
 textarea {
 	border: 1px solid #AAA;
-	border-radius: 0px 0.125rem 0.125rem 0px;
+	border-radius: 5px;
 	height: 100px;
 	margin: 0px auto;
 	/*margin-left: 10px;*/
