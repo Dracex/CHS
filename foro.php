@@ -223,7 +223,7 @@
 								<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="volver"><div id="volver"></div></a>
 							</div>
 							<div class="mensaje">
-								<h2>Hola! Me llamo Christian</h2>
+								<p>Hola! Me llamo Christian</p>
 							</div>
 						</div>
 						<?php if ($logged == true) {?>
