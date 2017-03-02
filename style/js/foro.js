@@ -8,6 +8,7 @@
 $(document).ready(function () {
 	var ancho = $(".mensaje").width();
 	$("textarea").width(ancho);
+	console.log(ancho);
 
 	$(window).resize(function () {
 		var ancho = $(".mensaje").width();
