@@ -218,10 +218,10 @@
 					<?php }?>
 				<?php if (isset ($_GET['action']) && $_GET['action'] == "1-Hola!-Me-llamo-Christian") {?>
 						<div class="mensajes">
-<!--							<div class="encabezado">
+							<div class="encabezado">
 								<h1>Hola! Me llamo Christian!</h1>
 								<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="volver"><div id="volver"></div></a>
-							</div>-->
+							</div>
 							<div class="mensaje">
 								<p>Hola! Me llamo Christian, soy de Mallorca y tengo 20 años</p>
 							</div>
