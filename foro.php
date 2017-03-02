@@ -223,6 +223,12 @@
 								<h2>Hola! Me llamo Christian</h2>
 							</div>
 						</div>
+						<?php if ($logged == true) {?>
+							<form action="#" method="POST">
+								<textarea placeholder="Respuesta rápida..." name="respuesta"></textarea>
+								<input type="submit" value="Responder!">
+							</form>
+						<?php }?>
 					<?php }?>
 			</main>
 			<footer>
