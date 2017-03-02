@@ -8,14 +8,14 @@ and open the template in the editor.
     Author     : christian
 */
 
-.secciones, .hilos {
+.secciones, .hilos, .mensajes {
 	background-color: rgba(255,255,255,0.6);
 	border: 1px solid black;
 	border-radius: 5px;
 	margin: 10px;
 }
 
-.secciones div, .secciones h2, .hilos div, .hilos h2 {
+.secciones div, .secciones h2, .hilos div, .hilos h2, .mensajes h2, .mensajes div {
 	padding: 5px;
 }
 
@@ -30,7 +30,7 @@ and open the template in the editor.
 	padding-left: 10px;
 }
 
-.seccion, .hilo {
+.seccion, .hilo, .mensaje {
 	margin: 10px;
 }
 
