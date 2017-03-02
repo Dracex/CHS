@@ -6,11 +6,11 @@
 
 
 $(document).ready(function () {
-	var ancho = $(".mensaje").width();
+	var ancho = $("#respuestaRapida").width();
 	$("textarea").width(ancho);
 
 	$(window).resize(function () {
-		var ancho = $(".mensaje").width();
+		var ancho = $("#respuestaRapida").width();
 		$("textarea").width(ancho);
 	})
 })
