@@ -229,7 +229,7 @@
 						<?php if ($logged == true) {?>
 							<form action="#" method="POST" id="respuestaRapida">
 								<textarea placeholder="Respuesta rápida..." name="respuesta"></textarea>
-								<input type="submit" value="Responder!">
+								<input type="submit" value="Responder!" id="responder">
 							</form>
 						<?php }?>
 					<?php }?>
