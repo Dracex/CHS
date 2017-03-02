@@ -42,7 +42,7 @@ textarea {
 	border: 1px solid #AAA;
 	border-radius: 0px 0.125rem 0.125rem 0px;
 	height: 100px;
-	margin-left: 31px;
+	/*margin-left: 31px;*/
 	margin-top: 15px;
 	padding-top: 5px;
 	/*resize: none;*/
