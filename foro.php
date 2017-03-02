@@ -223,12 +223,20 @@
 								<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="volver"><div id="volver"></div></a>
 							</div>
 							<div class="mensaje">
-								<p>Hola! Me llamo Christian, soy de Mallorca y tengo 20 años</p>
+								<div class="datosUsuario">
+									<p>Christian</p>
+									<p>01/03/2017 - 16:54</p>
+									<p>Mensajes totales: 1</p>
+								</div>
+								<p>Hola! Me llamo Christian, soy de Mallorca y tengo 20 añosLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat eleifend magna, tempus venenatis urna volutpat eget. Cras laoreet quam a eros dictum, tempus fermentum nisl pretium. Ut vehicula nulla vel tincidunt efficitur. Phasellus malesuada id lectus sit amet efficitur. Duis leo tortor, egestas nec semper at, rhoncus vel dui. Suspendisse erat ex, ultrices non dapibus ac, lacinia a dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sed pulvinar justo. Phasellus id dolor nisl. Quisque pellentesque, nisi ut eleifend hendrerit, tortor augue condimentum diam, id vehicula turpis lacus eget tellus. Sed et tortor gravida, eleifend erat non, bibendum turpis. Cras facilisis enim dignissim nibh molestie lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce non interdum urna, et ullamcorper leo. Cras eu eros urna. Quisque vitae risus euismod, blandit orci nec, euismod dui.</p>
 							</div>
 							<div class="mensaje">
-								<p>
-
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat eleifend magna, tempus venenatis urna volutpat eget. Cras laoreet quam a eros dictum, tempus fermentum nisl pretium. Ut vehicula nulla vel tincidunt efficitur. Phasellus malesuada id lectus sit amet efficitur. Duis leo tortor, egestas nec semper at, rhoncus vel dui. Suspendisse erat ex, ultrices non dapibus ac, lacinia a dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sed pulvinar justo. Phasellus id dolor nisl. Quisque pellentesque, nisi ut eleifend hendrerit, tortor augue condimentum diam, id vehicula turpis lacus eget tellus. Sed et tortor gravida, eleifend erat non, bibendum turpis. Cras facilisis enim dignissim nibh molestie lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce non interdum urna, et ullamcorper leo. Cras eu eros urna. Quisque vitae risus euismod, blandit orci nec, euismod dui.
+								<div class="datosUsuario">
+									<p>Otro que no es Christian</p>
+									<p>01/03/2017 - 17:03</p>
+									<p>Mensajes totales: 1</p>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat eleifend magna, tempus venenatis urna volutpat eget. Cras laoreet quam a eros dictum, tempus fermentum nisl pretium. Ut vehicula nulla vel tincidunt efficitur. Phasellus malesuada id lectus sit amet efficitur. Duis leo tortor, egestas nec semper at, rhoncus vel dui. Suspendisse erat ex, ultrices non dapibus ac, lacinia a dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sed pulvinar justo. Phasellus id dolor nisl. Quisque pellentesque, nisi ut eleifend hendrerit, tortor augue condimentum diam, id vehicula turpis lacus eget tellus. Sed et tortor gravida, eleifend erat non, bibendum turpis. Cras facilisis enim dignissim nibh molestie lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce non interdum urna, et ullamcorper leo. Cras eu eros urna. Quisque vitae risus euismod, blandit orci nec, euismod dui.
 
 									Nam a aliquet quam. Integer nec elit aliquam nisi convallis tempor. Praesent pharetra venenatis arcu, vitae suscipit ex rutrum nec. Sed scelerisque quam quis lectus maximus mollis. Aenean mollis aliquet fermentum. Nam posuere lectus sapien, eget porta sapien efficitur vel. Sed mattis diam eu ante pulvinar, ut egestas dolor fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut a auctor tortor. Suspendisse dictum magna mi, eu ultrices nisi tincidunt ut. Praesent quis varius justo. Praesent ut dolor interdum orci malesuada hendrerit. Pellentesque elementum purus erat, fringilla sollicitudin quam tincidunt non. Suspendisse id lorem feugiat, auctor erat eu, egestas elit. In rhoncus felis imperdiet sagittis dapibus. Proin nec nulla semper, rutrum erat blandit, sagittis erat.
 
