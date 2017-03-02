@@ -7,10 +7,10 @@
 
 $(document).ready(function () {
 	var ancho = $("#respuestaRapida").width();
-	$("textarea").width(ancho-5);
+	$("textarea").width(ancho);
 
 	$(window).resize(function () {
 		var ancho = $("#respuestaRapida").width();
-		$("textarea").width(ancho-5);
+		$("textarea").width(ancho);
 	})
 })
