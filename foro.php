@@ -203,7 +203,7 @@
 						<div class="hilos">
 							<div class="encabezado">
 								<h1>Presentación</h1>
-								<a href="http://caminahaciasantiago.esy.es/foro.php" class="volver"><button>Volver...</button></a>
+								<a href="http://caminahaciasantiago.esy.es/foro.php" class="volver"><div id="volver"></div></a>
 							</div>
 							<a href="http://caminahaciasantiago.esy.es/foro.php?action=1-Hola!-Me-llamo-Christian" class="hilo">
 								<h2>Hola! Me llamo Christian</h2>
@@ -220,7 +220,7 @@
 						<div class="mensajes">
 							<div class="encabezado">
 								<h1>Hola! Me llamo Christian!</h1>
-								<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="volver"><div id="volver">Volver...</div></a>
+								<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="volver"><div id="volver"></div></a>
 							</div>
 							<div class="mensaje">
 								<h2>Hola! Me llamo Christian</h2>
