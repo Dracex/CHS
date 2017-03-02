@@ -44,8 +44,8 @@ and open the template in the editor.
 	min-height: 100px;
 }
 
-.mensajes > .mensaje:first-child {
-	border-top: none;
+.mensaje:first-child {
+	border-top: 20px solid black;
 }
 
 a {
