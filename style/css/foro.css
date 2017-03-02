@@ -44,11 +44,14 @@ and open the template in the editor.
 	padding: 5px;
 }
 
+.mensaje {
+	display: flex;
+}
+
 .mensaje, .seccion {
 	border-bottom: 1px solid black;
 	border-top: 1px solid black;
 	/*border: 1px solid black;*/
-	display: flex;
 	margin-bottom: 10px;
 	min-height: 100px;
 }
