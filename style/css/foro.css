@@ -76,9 +76,7 @@ textarea {
 	border: 1px solid #AAA;
 	border-radius: 5px;
 	height: 100px;
-	margin: 10px auto;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 0px auto;
 	padding: 5px;
 	/*resize: none;*/
 }
@@ -86,6 +84,7 @@ textarea {
 #respuestaRapida {
 	display: flex;
 	flex-wrap: wrap;
+	padding: 10px;
 }
 
 #volver {
