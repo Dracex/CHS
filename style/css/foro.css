@@ -35,7 +35,7 @@ and open the template in the editor.
 
 }
 
-.seccion, .hilo, .mensaje {
+.seccion, .hilo {
 	/*margin: 5px;*/
 	padding: 5px;
 }
