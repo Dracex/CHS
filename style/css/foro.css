@@ -16,7 +16,7 @@ and open the template in the editor.
 }
 
 .secciones div, .secciones h2, .hilos div, .hilos h2, .mensajes h2, .mensajes div, #respuestaRapida {
-
+	padding: 5px;
 }
 
 .encabezado {
@@ -32,7 +32,7 @@ and open the template in the editor.
 }
 
 .descripcion {
-		padding: 5px;
+
 }
 
 .seccion, .hilo, .mensaje {
