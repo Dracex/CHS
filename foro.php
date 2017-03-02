@@ -223,7 +223,7 @@
 								<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="volver"><div id="volver"></div></a>
 							</div>
 							<div class="mensaje">
-								<p>Hola! Me llamo Christian</p>
+								<p>Hola! Me llamo Christian, soy de Mallorca y tengo 20 años</p>
 							</div>
 						</div>
 						<?php if ($logged == true) {?>
