@@ -211,7 +211,7 @@
 									Iniciado por Christian, 01/03/2017 - 16:54
 								</div>
 								<div class="informacion">
-									Respuestas: 1 | Visitas: 3
+									Respuestas: 0 | Visitas: 3
 								</div>
 							</a>
 						</div>
@@ -220,7 +220,7 @@
 						<div class="mensajes">
 							<div class="encabezado">
 								<h1>Hola! Me llamo Christian!</h1>
-								<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="volver"><button>Volver...</button></a>
+								<a href="http://caminahaciasantiago.esy.es/foro.php?action=nuevosUsuarios" class="volver"><div id="volver">Volver...</div></a>
 							</div>
 							<div class="mensaje">
 								<h2>Hola! Me llamo Christian</h2>

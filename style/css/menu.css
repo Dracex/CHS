@@ -92,11 +92,12 @@ fieldset p, #lab-save, #lab-terms, #save, #terms {
 	margin-left: 0.25rem;
 }
 
-.ico {	background-image: url(../../sys-images/sprite.png);
-			 background-repeat: no-repeat;
-			 left: 0px;
-			 height: 1.02rem;
-			 width: 1.02rem;
+.ico {
+	background-image: url(../../sys-images/sprite.png);
+	background-repeat: no-repeat;
+	left: 0px;
+	height: 1.02rem;
+	width: 1.02rem;
 }
 
 .derecha {
@@ -321,11 +322,11 @@ fieldset p, #lab-save, #lab-terms, #save, #terms {
 		border: 1px solid rgba(200,200,200, 0.12);
 		text-shadow: 0 1px 3px rgba(255, 255, 255, 0.12), 0 1px 2px rgba(255, 255, 255, 0.24);
 	}
-	
+
 	#dropImg {
 		display: none;
 	}
-	
+
 	#imgLog:hover > #dropImg {
 		display: block;
 	}
