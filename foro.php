@@ -228,7 +228,7 @@
 									<p>01/03/2017 - 16:54</p>
 									<p>Mensajes totales: 1</p>
 								</div>
-								<p>Hola! Me llamo Christian, soy de Mallorca y tengo 20 añosLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat eleifend magna, tempus venenatis urna volutpat eget. Cras laoreet quam a eros dictum, tempus fermentum nisl pretium. Ut vehicula nulla vel tincidunt efficitur. Phasellus malesuada id lectus sit amet efficitur. Duis leo tortor, egestas nec semper at, rhoncus vel dui. Suspendisse erat ex, ultrices non dapibus ac, lacinia a dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sed pulvinar justo. Phasellus id dolor nisl. Quisque pellentesque, nisi ut eleifend hendrerit, tortor augue condimentum diam, id vehicula turpis lacus eget tellus. Sed et tortor gravida, eleifend erat non, bibendum turpis. Cras facilisis enim dignissim nibh molestie lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce non interdum urna, et ullamcorper leo. Cras eu eros urna. Quisque vitae risus euismod, blandit orci nec, euismod dui.</p>
+								<p>Hola! Me llamo Christian, soy de Mallorca y tengo 20 años</p>
 							</div>
 							<div class="mensaje">
 								<div class="datosUsuario">
