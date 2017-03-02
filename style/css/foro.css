@@ -38,13 +38,20 @@ a {
 	color: black;
 }
 
+#respuestaRapida {
+	align-content: center;
+	display: flex;
+	justify-content: center;
+}
+
 textarea {
 	border: 1px solid #AAA;
 	border-radius: 0px 0.125rem 0.125rem 0px;
 	height: 100px;
-	margin: 0px;
-	margin-left: 10px;
+/*	margin: 0px;
+	margin-left: 10px;*/
 	margin-top: 15px;
+	padding-left: 5px;
 	padding-top: 5px;
 	/*resize: none;*/
 }
