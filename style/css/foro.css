@@ -45,7 +45,7 @@ and open the template in the editor.
 }
 
 .mensaje:nth-child(2) {
-	border: 20px solid black;
+	border: none;
 }
 
 a {
