@@ -44,7 +44,7 @@ and open the template in the editor.
 	padding: 5px;
 }
 
-.mensaje {
+.mensaje, .seccion {
 	border-bottom: 1px solid black;
 	border-top: 1px solid black;
 	/*border: 1px solid black;*/
@@ -65,7 +65,7 @@ and open the template in the editor.
 	font-weight: bold;
 }
 
-.mensaje:nth-child(2) {
+.mensaje:nth-child(2), .seccion:nth-child(2) {
 	border-top: none;
 }
 
