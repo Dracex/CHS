@@ -26,6 +26,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+		margin-bottom: 40px;
 }
 
 ::-moz-selection/*, input::-moz-selection, a::-moz-selection, label::-moz-selection*/ {
