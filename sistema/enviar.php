@@ -11,7 +11,7 @@
 	}
 	$correo = $_POST['mail'];
 	$mensaje = $_POST['mensaje'];
-	$mensaje = $nombre . " " . $apellido1 . $apellido2 . " con correo: " . $correo . ": " . $mensaje;
+	$mensaje = $nombre . " " . $apellido1 . $apellido2 . " con correo: " . $correo . ": " . $mensaje. "\n";
 	$mensaje = wordwrap ($mensaje);
 
 //	echo $correo . "<br>";
