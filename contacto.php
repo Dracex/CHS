@@ -200,7 +200,7 @@
 				if (isset ($_SESSION['mailSent'])) {
 					echo "<script>";
 					if ($_SESSION['mailSent'] == "true") {
-						echo "alert('Mensaje enviado correctamente. \n En breve le responderemos')";
+						echo "alert('Mensaje enviado correctamente. En breve le responderemos')";
 					} elseif ($_SESSION['mailSent'] == "false") {
 						echo "alert('El mensaje no ha sido enviado correctamente')";
 					}
