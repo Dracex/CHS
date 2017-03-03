@@ -197,14 +197,16 @@
 				</div>
 			</footer>
 			<?php
-				echo "<script>";
-				if (isset($_SESSION['mailSent']) && $_SESSION['mailSent'] == "true") {
-					echo "alert('Mensaje enviado correctamente. \n En breve le responderemos')";
-				} elseif (isset($_SESSION['mailSent']) && $_SESSION['mailSent'] == "false") {
-					echo "alert('El mensaje no ha sido enviado correctamente')";
+				if (isset ($_SESSION['mailSent'])) {
+					echo "<script>";
+					if ($_SESSION['mailSent'] == "true") {
+						echo "alert('Mensaje enviado correctamente. \n En breve le responderemos')";
+					} elseif ($_SESSION['mailSent'] == "false") {
+						echo "alert('El mensaje no ha sido enviado correctamente')";
+					}
+					echo "</script>";
 				}
-				echo "</script>";
-				unset($_SESSION['mailSent']);
+				unset ($_SESSION['mailSent']);
 			?>
 	</body>
 </html>
