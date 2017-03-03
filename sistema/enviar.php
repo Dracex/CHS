@@ -16,8 +16,7 @@
 
 //	echo $correo . "<br>";
 //	echo $mensaje;
-	$enviado = mail ("christianjroche@gmail.com", "Formulario de contacto CHS", $mensaje);
-	if ($enviado == true) {
+	if (mail ("christianjroche@gmail.com", "Formulario de contacto CHS", $mensaje)) {
 		$_SESSION['mailSent'] = "true";
 		header ("Location: http://caminahaciasantiago.esy.es/contacto.php");
 	} else {
