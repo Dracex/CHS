@@ -204,6 +204,7 @@
 					echo "alert('El mensaje no ha sido enviado correctamente')";
 				}
 				echo "</script>";
+				unset($_SESSION['mailSent']);
 			?>
 	</body>
 </html>
