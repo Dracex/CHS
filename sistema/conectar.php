@@ -25,18 +25,18 @@
 					$_SESSION['apellido1'] = $datos['apellido1'];
 					$_SESSION['apellido2'] = $datos['apellido2'];
 					$_SESSION['userID'] = $datos['id'];
-					header ("Location: http://caminahaciasantiago.esy.es/");
+					header ("Location: /");
 					exit ();
 				} else {
 					$_SESSION['err'] = 'bad';
-					header ("Location: http://caminahaciasantiago.esy.es/");
+					header ("Location: /");
 
 					exit ();
 					echo "ERROR";
 				}
 			} else {
 				$_SESSION['err'] = "noExists";
-				header ("Location: http://caminahaciasantiago.esy.es/");
+				header ("Location: /");
 			}
 		}
 	} catch (Exception $errorQuery) {

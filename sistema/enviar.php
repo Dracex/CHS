@@ -18,8 +18,8 @@
 //	echo $mensaje;
 	if (mail ("christianjroche@gmail.com", "Formulario de contacto CHS", $mensaje)) {
 		$_SESSION['mailSent'] = "true";
-		header ("Location: http://caminahaciasantiago.esy.es/contacto.php");
+		header ("Location: /contacto.php");
 	} else {
 		$_SESSION['mailSent'] = "false";
-		header ("Location: http://caminahaciasantiago.esy.es/contacto.php");
+		header ("Location: /contacto.php");
 	}

@@ -26,12 +26,12 @@
 		$resultadoInsertar = $conn->query ($query);
 		if (!$resultadoInsertar) {
 			$_SESSION['err'] = "errImg";
-			header ("Location: http://caminahaciasantiago.esy.es/imagenes.php?action=upload");
+			header ("Location: /imagenes.php?action=upload");
 			exit ();
 		} else {
 			move_uploaded_file ($_FILES['foto']['tmp_name'], $destino . $foto);
 			$_SESSION['err'] = "none";
-			header ("Location: http://caminahaciasantiago.esy.es/imagenes.php?action=upload");
+			header ("Location: /imagenes.php?action=upload");
 		}
 
 		$conn = null;

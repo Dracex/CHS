@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<link rel="icon" type="image/png" href="http://caminahaciasantiago.esy.es/sys-images/favicon.png" />
+		<link rel="icon" type="image/png" href="/sys-images/favicon.png" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Camina hacia Santiago</title>
@@ -29,7 +29,7 @@
 		<div id="wrapper">
 			<header id="mainhead">
 				<div class="blanco">
-					<a href="http://caminahaciasantiago.esy.es/" id="tit"><div class="ico-tit"></div>Camina hacia Santiago</a>
+					<a href="/" id="tit"><div class="ico-tit"></div>Camina hacia Santiago</a>
 					<nav id="pcnav">
 						<ul>
 							<li><a href="#">Imágenes<div class="ico derecha" id="imagenes"></div></a></li>

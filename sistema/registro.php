@@ -21,7 +21,7 @@
 			$mail_db = $datos['correo'];
 			if ($mail_user == $mail_db) {
 				$_SESSION['err'] = "user";
-				header ("Location: http://caminahaciasantiago.esy.es/");
+				header ("Location: /");
 				exit ();
 			}
 		}
@@ -35,11 +35,11 @@
 		$resultadoInsertar = $conn->query ($insertar);
 		if (!$resultadoInsertar) {
 			$_SESSION['err'] = "err";
-			header ("Location: http://caminahaciasantiago.esy.es/");
+			header ("Location: /");
 			exit ();
 		} else {
 			$_SESSION['err'] = "none";
-			header ("Location: http://caminahaciasantiago.esy.es/");
+			header ("Location: /");
 			exit ();
 		}
 	} catch (PDOException $e) {
