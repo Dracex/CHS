@@ -172,7 +172,7 @@
 								?>
 								<div class='<?= $camino?>'>
 									<p><?= $nombre?></p><br>
-									<a href="camino.php?camino=<?= $camino?>" target="_blank" class="mas">Ver más...</a>
+									<a href="camino.php?camino=<?= $camino?>" class="mas">Ver más...</a>
 								</div>
 							<?php }?>
 					</div>
