@@ -184,7 +184,7 @@
 				</div>
 			</footer>
 		</div>
-		<form method="POST">
+		<form method="POST" action="<?=$PHP_SELF?>">
 			<input type="hidden" value="OK">
 			<input type="submit" value="send">
 		</form>
