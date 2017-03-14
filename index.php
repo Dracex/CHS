@@ -184,13 +184,13 @@
 				</div>
 			</footer>
 		</div>
-		<form method="POST" action="http://caminahaciasantiago.esy.es/">
+		<form method="POST">
 			<input type="hidden" value="OK" name="err">
 			<input type="submit" value="send">
 		</form>
 		<?php
 				if (isset ($_POST['err'])) {
-					echo "Hola!"
+					echo "Hola!";
 				}
 			if (isset ($_SESSION['err'])) {
 				$err = $_SESSION['err'];
