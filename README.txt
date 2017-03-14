@@ -1,0 +1,1 @@
+Para que funcione correctamente el programa en localhost/host externo al mio, debes crear la base de datos (para crear la base de datos, debes abrir las lineas de comando de sql, y pegar lo que contiene el fichero tablas.sql) y una vez hecho eso, debes modificar el fichero conexion.php, modificando la conexión PDO correspondientemente.

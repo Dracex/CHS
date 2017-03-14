@@ -184,11 +184,20 @@
 				</div>
 			</footer>
 		</div>
+		<form method="POST">
+			<input type="hidden" value="OK">
+			<input type="submit" value="send">
+		</form>
 		<?php
 			if (isset ($_SESSION['err'])) {
 				$err = $_SESSION['err'];
 				echo "<script>";
 				switch ($err) {
+					case 'OK':
+						echo 'alert("Funciona sin action");';
+						$_SESSION['err'] = "";
+						break;
+					
 					case 'user':
 						echo 'alert("Ya hay un usuario correo");';
 						$_SESSION['err'] = "";
