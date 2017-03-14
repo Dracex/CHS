@@ -189,12 +189,14 @@
 			<input type="submit" value="send">
 		</form>
 		<?php
+				if (isset ($_POST['err'])) {
+					echo "<script>";
+					echo 'alert(' . $_POST['err'] . ');';
+					echo "</script>";
+				}
 			if (isset ($_SESSION['err'])) {
 				$err = $_SESSION['err'];
 				echo "<script>";
-				if (isset ($_POST['err'])) {
-					echo 'alert(' . $_POST['err'] . ');';
-				}
 				switch ($err) {
 					case 'user':
 						echo 'alert("Ya hay un usuario correo");';
