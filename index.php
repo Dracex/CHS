@@ -190,9 +190,7 @@
 		</form>
 		<?php
 				if (isset ($_POST['err'])) {
-					echo "<script>";
-					echo "alert('$_POST["err"]');";
-					echo "</script>";
+					echo "Hola!"
 				}
 			if (isset ($_SESSION['err'])) {
 				$err = $_SESSION['err'];
