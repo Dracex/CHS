@@ -190,7 +190,7 @@
 		</form>
 		<?php
 			if (isset ($_POST['err'])) {
-				echo 'alert("Funciona sin action");';
+				echo 'alert('.$_POST['err'].');';
 			}
 			if (isset ($_SESSION['err'])) {
 				$err = $_SESSION['err'];
