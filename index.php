@@ -184,7 +184,7 @@
 				</div>
 			</footer>
 		</div>
-		<form method="POST">
+		<form method="POST" action="http://caminahaciasantiago.esy.es/">
 			<input type="hidden" value="OK" name="err">
 			<input type="submit" value="send">
 		</form>
