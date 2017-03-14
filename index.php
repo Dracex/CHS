@@ -185,10 +185,13 @@
 			</footer>
 		</div>
 		<form method="POST" action="<?=$PHP_SELF?>">
-			<input type="hidden" value="OK">
+			<input type="hidden" value="OK" name="err">
 			<input type="submit" value="send">
 		</form>
 		<?php
+			if (isset($_POST['err'])) {
+				$err = $_POST['err'];
+			}
 			if (isset ($_SESSION['err'])) {
 				$err = $_SESSION['err'];
 				echo "<script>";
