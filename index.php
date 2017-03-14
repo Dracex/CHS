@@ -191,7 +191,7 @@
 		<?php
 				if (isset ($_POST['err'])) {
 					echo "<script>";
-					echo 'alert(' . $_POST['err'] . ');';
+					echo "alert('$_POST["err"]');";
 					echo "</script>";
 				}
 			if (isset ($_SESSION['err'])) {
