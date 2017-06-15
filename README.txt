@@ -1,1 +1,2 @@
-Para que funcione correctamente el programa en localhost/host externo al mio, debes crear la base de datos (para crear la base de datos, debes abrir las lineas de comando de sql, y pegar lo que contiene el fichero tablas.sql) y una vez hecho eso, debes modificar el fichero conexion.php, modificando la conexión PDO correspondientemente.
+La página web está programada en HTML, CSS, JavaScript, jQuery, PHP y MySQL.
+Se trata de una página en la que la gente pueda ver información de los Caminos de Santiago, pueda ver y publicar sus imágenes del Camino, preguntar sus dudas en el foro o contactar conmigo y así resolver las dudas y/o problemas que pueda tener cualquier persona acerca del Camino de Santiago.
