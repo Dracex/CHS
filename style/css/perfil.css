@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 main {
-	background-color: rgba(192,192,192,0.5);	
+	/*background-color: rgba(192,192,192,0.5);	*/
 	border-radius: 5px;
 	padding: 20px;
 	display: flex;

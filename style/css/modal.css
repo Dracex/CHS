@@ -89,7 +89,7 @@
 
 #entrar input[type="text"], #entrar input[type="password"],
 #entrar input[type="mail"], #registro input[type="text"],
-#registro input[type="password"], #registro input[type="mail"], #name, main input[type="text"]{
+#registro input[type="password"], #registro input[type="mail"], #name, main input[type="text"], textarea{
 	background-color: white;
 	border: 0.0625rem solid #AAA;
 	/*border-left: none;*/
@@ -110,7 +110,7 @@
 	margin-left: 15px;
 }
 
-#entrar input[type="submit"], #registro input[type="submit"] {
+#entrar input[type="submit"], #registro input[type="submit"], .agregar input[type="submit"] {
 	border: 1px solid #AAA;
 	border-radius: 0.125rem;
 	display: flex;

@@ -1,5 +1,6 @@
 <?php
 
+  //Iniciamos sesión y recogemos las variables de $_POST y enviamos el correo
 	session_start ();
 	$nombre = $_POST['name'];
 	$apellido1 = $_POST['apellido1'];

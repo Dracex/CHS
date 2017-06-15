@@ -20,6 +20,7 @@ $(document).ready(function () {
 	})
 
 	$(".li-ses").click(function () {
+    $(".error").hide();
 		$("#myModal").fadeIn(200);
 		$("#myModal").css("display", "flex");
 

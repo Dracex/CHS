@@ -1,0 +1,31 @@
+<?php
+
+  include("conexion.php");
+  session_start ();
+
+  $conn = conectar ();
+
+  try {
+    $ano = date ("Y");
+    $mes = date ("m");
+    $dia = date ("d");
+    $hora = date ("H");
+    $minutos = date ("i");
+    $fecha = $dia . "/" . $mes . "/" . $ano . " - " . $hora . ":" . $minutos;
+    $titulo = $_POST['titulo'];
+    $descripcion = $_POST['descripcion'];
+    $idUser = $_SESSION['userID'];
+    $idSeccion = $_POST['idSeccion'];
+
+    $query = 'INSERT INTO hilos (nombre, idCreador, fecha, idSeccion) VALUES (' . $titulo . ', ' . $idUser . ', ' . $fecha . ', ' . $idSeccion . ')';
+    $resultadoInsertar = $conn->query ($query);
+    echo $query; 
+    if (!$resultadoInsertar) {
+      
+    } else {
+      header ("Location: http://caminahaciasantiago.esy.es/foro.php?idSeccion=$idSeccion");
+    }
+  } catch (Exception $ex) {
+    
+  }
+  

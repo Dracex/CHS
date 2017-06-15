@@ -5,34 +5,34 @@
  */
 
 
-$(document).ready(function () {
-	for (var i = 0; i < 10; i++) {
-		$.post("http://caminahaciasantiago.esy.es/sistema/seleccionImagen.php", {
-			index: $("main > img").length + (i + 2)
-		}, function (data, status) {
-			if (data.length) {
-				var img = $("<img/>").attr("src", data);
-				img.addClass("imagen");
-				img.attr("alt", "imágen");
-				$("main").append(img);
-			}
-		});
-	}
+$ (document).ready (function () {
+  for (var i = 0; i < 10; i++) {
+    $.post ("/sistema/seleccionImagen.php", {
+      index: $ ("main > img").length + (i + 2)
+    }, function (data, status) {
+      if (data.length) {
+        var img = $ ("<img/>").attr ("src", data);
+        img.addClass ("imagen");
+        img.attr ("alt", "imágen");
+        $ ("main").append (img);
+      }
+    });
+  }
 
-	$(window).scroll(function (event) {
-		if ($(window).scrollTop() == $(document).height() - $(window).height()) {
-			for (var i = 0; i < 10; i++) {
-				$.post("http://caminahaciasantiago.esy.es/sistema/seleccionImagen.php", {
-					index: $("main > img").length + (i + 2)
-				}, function (data, status) {
-					if (data.length) {
-						var img = $("<img/>").attr("src", data);
-						img.addClass("imagen");
-						img.attr("alt", "imágen");
-						$("main").append(img);
-					}
-				});
-			}
-		}
-	});
+  $ (window).scroll (function (event) {
+    if ($ (window).scrollTop () == $ (document).height () - $ (window).height ()) {
+      for (var i = 0; i < 10; i++) {
+        $.post ("/sistema/seleccionImagen.php", {
+          index: $ ("main > img").length + (i + 2)
+        }, function (data, status) {
+          if (data.length) {
+            var img = $ ("<img/>").attr ("src", data);
+            img.addClass ("imagen");
+            img.attr ("alt", "imágen");
+            $ ("main").append (img);
+          }
+        });
+      }
+    }
+  });
 })
